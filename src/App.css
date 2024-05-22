@@ -1,0 +1,298 @@
+:root {
+  --main-font-size: 18px;
+  --main-line-height: 26px;
+  --font: AvertaStd, Arial, sans-serif;
+  --adobe: 'Adobe Garamond Pro';
+  --bebas: 'Bebas Neue';
+  --primary: #20a757;
+  --secondary: #0c54a0;
+  --blue: #163d68;
+  --white: #fff;
+  --black: #000;
+  --grey: #f1f2f2;
+  --smallFont: 13px;
+  --midFont: 15px;
+  --smallHeight: 20px;
+  --letter3: 3px;
+  --letter2: 2px;
+  --uppercase: uppercase;
+  --letter1: 1px;
+
+}
+
+body {
+  color: rgb(0 0 0 / 70%);
+  font-family: var(--font);
+  font-size: var(--main-font-size);
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: var(--main-line-height);
+  margin: 0;
+  outline: 0;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+* {
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  max-width: 100%;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.radius-50, .ui.fluid.dropdown {
+  border-radius: 50px;
+}
+
+.primary-color,
+.ctacomponent svg path {
+  color: var(--primary);
+  fill: var(--primary);
+}
+
+.secondary-color {
+  color: var(--secondary);
+  fill: var(--secondary);
+}
+
+.title.text-white h4 {
+  color: var(--white);
+}
+
+.button-container-1.secondarybtn button {
+  background-color: var(--primary);
+}
+
+.ctasection {
+  background-color: var(--blue);
+}
+
+.container {
+  width: 1800px;
+  max-width: 1800px;
+  margin: auto;
+}
+
+.web-container {
+  width: 1380px;
+  margin: auto;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+.title span {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2.4px;
+  color: hsl(0deg 0% 0% / 70%);
+  padding-bottom: 15px;
+}
+
+.title h4 {
+  position: relative;
+  font-size: 42px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: var(--secondary);
+  letter-spacing: 1px;
+  width: 90%;
+  margin: auto;
+  font-weight: 300;
+}
+/* .title h4:before */
+.bannerh2::before {
+  content: '';
+  width: 125px;
+  height: 5px;
+  background: var(--primary);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 0;
+  transition: ease all 1s;
+}
+.title {
+  margin-bottom: 50px;
+  display: grid;
+}
+
+.p-100 {
+  padding: 100px 0;
+}
+
+.letter1 {
+  letter-spacing: var(--letter1);
+}
+
+.cardbox {
+  width: 90%;
+  margin-bottom: 10%;
+  overflow: hidden;
+}
+.Services .iconcircle span svg, .Services .iconcircle span, .cardbox img, .cardParent img, .doctorsprofile img, .iconcircle span svg{  
+  transition: ease all 0.5s !important;
+}
+.cardbox:hover img, .cardParent:hover img, .doctorslide:hover .doctorsprofile img, .iconcircle:hover span svg{
+  transform: scale(1.05);
+}
+.Services .iconcircle:hover span {background: var(--grey);}
+
+.Services .iconcircle:hover span svg path {
+    fill: var(--primary);
+}
+.cardbox:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: var(--grey);
+  position: absolute;
+  right: 0;
+  transition: ease all 0.5s;
+  transition-delay: 0.5s;
+}
+.why_Patel .flex-center:nth-child(2) .cardbox:before{
+  transition: ease all 0.6s;
+  transition-delay: 0.6s;
+}
+.why_Patel .flex-center:nth-child(3) .cardbox:before{
+  transition: ease all 0.7s;
+  transition-delay: 0.7s;
+}
+.why_Patel .flex-center:nth-child(4) .cardbox:before{
+  transition: ease all 0.8s;
+  transition-delay: 0.8s;
+}
+.why_Patel .flex-center:nth-child(5) .cardbox:before{
+  transition: ease all 0.9s;
+  transition-delay: 0.9s;
+}
+.why_Patel .flex-center:nth-child(6) .cardbox:before{
+  transition: ease all 1s;
+  transition-delay: 1s;
+}
+.why_Patel .flex-center.aos-init.aos-animate .cardbox::before {
+  width: 0;
+}
+.accreditation img {transition: ease all 0.5s;transition-delay: 0.75s;transform: scale(0, 1);}
+.accreditation .col-lg-3.col-xs-6.col-12.aos-init.aos-animate img {
+  transform: scale(1, 1);
+}
+.gray_Background {
+  background-color: var(--grey);
+}
+
+.bglayerimage {
+  background-image: url(./images/bg-layer-banner.jpg);
+}
+
+.radius-25 {
+  border-radius: 25px;
+}
+
+html.lenis {
+  height: auto
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none
+}
+.removeBand:before {
+  display: none;
+}
+/* Headings */
+.heading4{
+  font-size: 28px;
+  line-height: 30px;
+  font-weight: 300;
+}
+
+.heading2 {
+  font-size: 50px;
+  line-height: 56px;
+  font-weight: 300;
+}
+.heading3{
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 300;
+}
+.fw-500{
+  font-weight: 500;
+}
+.fw-600{
+  font-weight: 600;
+}
+.fw-300{
+  font-weight: 300;
+}
+.fw-100{
+  font-weight: 100;
+}
+h1, h2, h3, h4, h5 {
+  font-family: var(--font);
+  line-height: inherit;
+  font-size: inherit;
+  margin: calc(2rem - .14285714em) 0 1rem;
+  font-weight:inherit;
+  padding: 0;
+}
+/* Doctor Detail */
+.doctorTitle:after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #b3b5b7;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.doctorTitle h4 {
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  margin: 0;
+  padding-right: 20px;
+}
+.doctorCont p {
+  margin: 0 0 10px 0;
+}

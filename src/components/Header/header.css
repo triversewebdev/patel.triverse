@@ -1,0 +1,48 @@
+.logo {
+    max-width: 294px;
+    height: 90px;
+    transition: ease all 0.5s;
+}
+.logo svg{
+    transition: ease all 0.5s;
+    transition-delay: 0.5s;
+}
+.sticky .logo {
+    max-width: 250px;
+    height: 80px;
+}
+
+.sticky .dropdown-content {
+    top: 80%;
+}
+
+header {
+    min-height: 130px;
+    background-color: var(--white);
+}
+.header {
+    padding: 15px 0;
+}
+.header.sticky {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .12);
+    width: 100%;
+    z-index: 3;
+    background: var(--white);
+}
+.sticky {
+    animation: smoothScroll 1s forwards;
+    left: 0;
+    position: fixed;
+    top: 0;
+   
+}
+
+@keyframes smoothScroll {
+    0% {
+        transform: translateY(-40px)
+    }
+
+    to {
+        transform: translateY(0)
+    }
+}

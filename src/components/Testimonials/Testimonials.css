@@ -1,0 +1,39 @@
+
+.testimonialcont .col-12.float-start {
+    height: 200px;
+}
+.testimonialcont {
+    border-radius: 0 0 200px 200px;
+    padding: 0px 25px;
+    text-align: center;
+    box-shadow: 0 3px 3px rgb(0 0 0 / 12%);
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 80px;    
+    padding-bottom: 80px;
+    height: 450px;
+}
+.testimonialcont:hover .iconcircle span{
+    background-color: var(--primary);
+    transition: ease all 0.5s;
+}
+.testimonialcont h3{
+    font-size: inherit;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: var(--black);
+}
+.testimonialcont .iconcircle {
+    width: auto;
+    margin: 0 !important;
+}
+
+.testimonialcont .iconcircle span {width: 120px;height: 120px;}
+
+.circlePosition {
+    left: 75%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    height: auto;
+}

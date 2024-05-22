@@ -1,0 +1,26 @@
+.doctors .slick-list, .doctorslide {
+    width: 90%;
+    margin: 0px auto;
+}
+.doctorsprofile .doctorslide {
+    width: 100%;
+}
+.doctorsinfo h3 {
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    letter-spacing: 1px;
+    width: 90%;
+    margin-bottom: 30px;
+    color: var(--black);
+}
+.doctorsinfo p {
+    font-weight: 600;
+    color: var(--black);
+}
+.doctorsinfo .col-12.float-start {
+    height: 180px;
+}

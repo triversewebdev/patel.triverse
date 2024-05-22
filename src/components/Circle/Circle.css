@@ -1,0 +1,30 @@
+.iconcircle  span {
+    width: 150px;
+    height: 150px;
+    background: var(--primary);
+    display: inline-block;
+    border-radius: 100%;
+}
+
+.iconcircle span svg {
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+.Services .iconcircle span svg{
+    transition: ease all 0.5s;
+    opacity: 0;
+    transform: scale(1, 0);
+    transition-delay: 0.5s;
+}
+.Services .iconcircle span.aos-init.aos-animate svg {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+
+.iconcircle span svg path {
+    fill: var(--white);
+}
+.iconcircle:nth-child(odd) span {
+    background: var(--secondary);
+}

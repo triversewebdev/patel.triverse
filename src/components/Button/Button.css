@@ -1,0 +1,111 @@
+.button-container-1 button, .mas, .button-container-1, [class^=btn-] {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    width: 250px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #aca8a8;
+    transition: 0.25s ease-in-out;
+    border-radius: 25px;
+    font-size: 13px;
+    color: #58595b;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    z-index: 1;
+}
+[class^=btn-]:hover{
+    color: var(--white);
+}
+.btn-8:before, .btn-8:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--primary);
+    transition: 0.25s ease-in-out;
+    z-index: -1;
+}
+.btn-8:before {
+    transform: translateY(-100%);
+}
+.btn-8:hover:before {
+    transform: translateY(-50%);
+}
+
+.btn-8:after {
+    transform: translateY(100%);
+}
+.btn-8:hover:after {
+    transform: translateY(50%);
+}
+/* Button 2 */
+.button-container-1 button {
+    width: 100%;
+    height: 100%;
+    background: #9e0b0f;
+    -webkit-mask: url('../../images/effect-layer.png');
+    mask: url('../../images/effect-layer.png');
+    -webkit-mask-size: 2300% 100%;
+    mask-size: 2300% 100%;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    -webkit-animation: ani2 0.7s steps(22) forwards;
+    animation: ani2 0.7s steps(22) forwards;
+}
+
+.button-container-1 button:hover {
+    -webkit-animation: ani 0.7s steps(22) forwards;
+    animation: ani 0.7s steps(22) forwards;
+}
+
+.mas {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+
+}
+
+@-webkit-keyframes ani {
+    from {
+     -webkit-mask-position: 0 0;
+     mask-position: 0 0;
+    }
+   
+    to {
+     -webkit-mask-position: 100% 0;
+     mask-position: 100% 0;
+    }
+   }
+   
+   @keyframes ani {
+    from {
+     -webkit-mask-position: 0 0;
+     mask-position: 0 0;
+    }
+   
+    to {
+     -webkit-mask-position: 100% 0;
+     mask-position: 100% 0;
+    }
+   }
+   
+   .button-container-1.primary-color button {
+    background: var(--primary);
+}
+
+.button-container-1.border-0.secondarybtn {
+    width: 185px;
+}
+.button-container-1 .mas {
+    border: none;
+}
+
+.button-container-1:hover {
+    border: solid 1px #aca8a8 !important;
+}

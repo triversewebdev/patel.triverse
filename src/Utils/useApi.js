@@ -1,0 +1,1 @@
+export const BASE_URL = 'https://triverseadvertising.com/patel_website/admin-portal/api';

@@ -1,0 +1,19 @@
+.parentbanner {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.parentbanner h2 {
+    display: grid;
+    color: var(--white);
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 300;
+}
+.bannerh2::before {
+    left: 0;
+    transform: inherit;
+    top: -20px;
+    background: var(--white);
+}

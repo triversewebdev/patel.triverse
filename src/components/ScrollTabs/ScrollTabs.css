@@ -1,0 +1,34 @@
+.fixmenu {
+    min-height: 70px;
+}
+
+.scrollClass.sticky {background: var(--blue);top: 13%;z-index: 2;}
+.scrollClass {
+    transition: ease all 0.5s;
+    transition-delay: 0.1s;
+}
+.scrollClass ul li {
+    cursor: pointer;
+    font-size: var(--midFont);
+    text-transform: uppercase;
+    letter-spacing: var(--letter2);
+    line-height: var(--midHeight);
+}
+.scrollClass.sticky ul li {
+    color: var(--white);
+    transition: ease all 0.5s;
+    transition-delay: 0.1s;
+    
+}
+.scrollClass.sticky ul li.active {
+    color: var(--primary);
+}
+.scrollClass ul li.active {
+    color: var(--secondary);
+    font-weight: 600;
+}
+.scrollClass.sticky ul {
+    width: 68%;
+    margin: auto;
+    border-bottom: 0 !important;
+  }

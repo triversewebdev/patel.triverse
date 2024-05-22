@@ -1,0 +1,49 @@
+.serviceBox {
+    padding: 20px;
+    background-color: var(--grey);
+}
+
+.serviceBox span {
+    font-family: var(--adobe);
+}
+
+.serviceBox h5 {
+    font-family: var(--bebas);
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: bold;
+    color: var(--secondary);
+}
+
+.serviceProvider li {
+    width: 15%;
+    border: solid 1px #bcbcbc;
+    margin: 0.5%;
+    text-align: center;
+    height: 150px;
+    transition: ease all 0.5s;
+}
+.serviceProvider li:hover, .bglayerimage .col-lg-3.col-xs-6.col-12:hover {
+    box-shadow: 2px 6px 10px rgb(188 188 188 / 49%);
+}
+.serviceProvider li img {width: auto;}
+.loadeffect {
+    transition: 1s ease-out;
+    transition-delay: 0.2s;
+    position: relative;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    clip-path: polygon(0 100%, 100% 100%, 100% 100%, 0 100%);
+    visibility: hidden;
+}
+
+.excellence .col-lg-3.col-xs-6.col-12.aos-init.aos-animate .loadeffect {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    visibility: visible;
+    transform: skewY(0);
+}
+.serviceChild {
+    border-left: solid 5px var(--primary);
+    padding-left: 10px;
+}

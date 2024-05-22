@@ -1,0 +1,325 @@
+{
+  "homeBanner": [
+    {
+      "imagePath": "http://patel.triverseadvertising.com/webimage/banner01.webp",
+      "imageAlt": "jo aave so raazi jaave",
+      "title": "<span>FIVE</span><span>DECADES OF </span><span><strong>DEDICATION</strong></span>",
+      "content": "<p>Bridging Indian tradition with world class healthcare</p>"
+    },
+    {
+      "imagePath": "http://patel.triverseadvertising.com/webimage/banner02.webp",
+      "imageAlt": "jo aave so raazi jaave",
+      "title": "<span>Leaders of </span><span>Medical </span> <span>Excellence in </span><span><strong>JALANDHAR</strong></span>"
+    },
+    {
+      "imagePath": "http://patel.triverseadvertising.com/webimage/banner03.webp",
+      "imageAlt": "jo aave so raazi jaave",
+      "title": "<span>ROBOTIC</span><span>ACCURACY</span><span><strong>HUMAN CARE</strong></span>"
+    },
+    {
+      "imagePath": "http://patel.triverseadvertising.com/webimage/banner04.webp",
+      "imageAlt": "jo aave so raazi jaave",
+      "title": "<p><strong>ADVANCED HEART CARE</strong></p><span>EVERY</span><span>HEARTBEAT</span><span><strong>MATTERS.</strong></span>"
+    },
+    {
+      "imagePath": "http://patel.triverseadvertising.com/webimage/banner05.webp",
+      "imageAlt": "jo aave so raazi jaave",
+      "title": "<span>jo aave so </span><span><strong>raazi jaave</strong></span>"
+    }
+  ],
+  "aboutUs": {
+    "title": "PIONEERING HEALTHCARE EXCELLENCE IN JALANDHAR",
+
+    "aboutData": [
+      "Established in 1974, Patel Hospital is a leading multispecialty healthcare centre in Punjab, ideally located in the heart of Jalandhar.",
+      "Spread over approx. 11000 sq. ft., Patel Hospital is equipped with world-class infrastructure and the latest medical technology. From robotics to super-specialized surgeries, state-of-the-art diagnostic facilities to best-in-region intensive care, here you can get access to a comprehensive range of full medical services and surgical options."
+    ]
+  },
+  "number": {
+    "title": "OUR HEALTHY NUMBERS",
+    "numberData": [
+      {
+        "startValue": 5,
+        "endValue": 35,
+        "speed": 400,
+        "label": "Doctors",
+        "Plus": "+"
+      },
+      {
+        "startValue": 50,
+        "endValue": 250,
+        "speed": 400,
+        "label": "Bed",
+        "Plus": "+"
+      },
+      {
+        "startValue": 100000,
+        "endValue": 162192,
+        "speed": 200,
+        "label": "Surgeries Performed",
+        "Plus": "+"
+      },
+      {
+        "startValue": 300000,
+        "endValue": 410220,
+        "speed": 200,
+        "label": "Patients Served",
+        "Plus": "+"
+      },
+      {
+        "startValue": 40000,
+        "endValue": 45034,
+        "speed": 400,
+        "label": "Cancer Patients Treated",
+        "Plus": "+"
+      },
+      {
+        "startValue": 100,
+        "endValue": 250,
+        "speed": 400,
+        "label": "Robotics Surgeries",
+        "Plus": "+"
+      }
+    ]
+  },
+  "whypatel": {
+    "title": "THE PILLARS OF OUR SUCCESS",
+    "cardData": [
+      {
+        "cardText": "Legacy of Care",
+        "cardImage": "http://patel.triverseadvertising.com/webimage/Legacy-Care.webp"
+      },
+      {
+        "cardText": "Advanced Centres of Excellence",
+        "cardImage": "http://patel.triverseadvertising.com/webimage/Advanced-Excellence.webp"
+      },
+      {
+        "cardText": "Tech-Driven Innovation",
+        "cardImage": "http://patel.triverseadvertising.com/webimage/Tech-Innovation.webp"
+      },
+      {
+        "cardText": "World-Class Infrastructure",
+        "cardImage": "http://patel.triverseadvertising.com/webimage/World-Class-Infrastructure.webp"
+      },
+      {
+        "cardText": "Extraordinary Expertise",
+        "cardImage": "http://patel.triverseadvertising.com/webimage/Extraordinary-Expertise.webp"
+      },
+      {
+        "cardText": "Compassionate Care",
+        "cardImage": "http://patel.triverseadvertising.com/webimage/Compassionate-Care.webp"
+      }
+    ]
+  },
+  "coe": {
+    "title": "DEDICATED SERVICES | ADVANCED TECHNOLOGY | SPECIALIZED EXPERTS",
+    "coeData": [
+      {
+        "cardCont": "PATEl HEART",
+        "cardHeading": "Centre of Advanced Cardiac Care",
+        "cardImage": "http://patel.triverseadvertising.com/webimage/service01.webp"
+      },
+      {
+        "cardCont": "PATEl KIDNEY",
+        "cardHeading": "Centre of Advanced Nephro-Urology",
+        "cardImage": "http://patel.triverseadvertising.com/webimage/service02.webp"
+      },
+      {
+        "cardCont": "PATEl HEAD & NECK",
+        "cardHeading": "Centre of Advanced ENT Care",
+        "cardImage": "http://patel.triverseadvertising.com/webimage/service03.webp"
+      },
+      {
+        "cardCont": "PATEl Liver",
+        "cardHeading": "Centre of Advanced GI Care",
+        "cardImage": "http://patel.triverseadvertising.com/webimage/service04.webp"
+      },
+      {
+        "cardCont": "PATEl Robotics",
+        "cardHeading": "Centre of Advanced Robotic Surgery",
+        "cardImage": "http://patel.triverseadvertising.com/webimage/service05.webp"
+      },
+      {
+        "cardCont": "PATEl Cancer",
+        "cardHeading": "Centre of Advanced Oncology",
+        "cardImage": "http://patel.triverseadvertising.com/webimage/service06.webp"
+      },
+      {
+        "cardCont": "PATEl Lung",
+        "cardHeading": "Centre of Advanced Pulmonology",
+        "cardImage": "http://patel.triverseadvertising.com/webimage/service07.webp"
+      },
+      {
+        "cardCont": "PATEl HEART",
+        "cardHeading": "Centre of Advanced Cardiac Care",
+        "cardImage": "http://patel.triverseadvertising.com/webimage/service08.webp"
+      }
+    ]
+  },
+  "doctors": {
+    "title": "MEET OUR DOCTORS",
+    "doctorData": [
+      {
+        "imagePath": "http://patel.triverseadvertising.com/webimage/doctoer01.webp",
+        "imageAlt": "Dr. Amber Aggrwal",
+        "title": "Dr. Amber Aggrwal",
+        "content": "<p>MBBS, DNB (Obstetrics & Gynaecology)</p> <p>MCh. Reproductive Medicine (IVF), UK</p>"
+      },
+      {
+        "imagePath": "http://patel.triverseadvertising.com/webimage/doctoer02.webp",
+        "imageAlt": "Dr. Nitish Kohli",
+        "title": "Dr. Nitish Kohli",
+        "content": "<p>MBBS, MS (Orthopedics) Consultant Orthopedics & Joint Replacement Surgeon</p>"
+      },
+      {
+        "imagePath": "http://patel.triverseadvertising.com/webimage/doctoer03.webp",
+        "imageAlt": "Dr. Shikha Chawla",
+        "title": "Dr. Shikha Chawla",
+        "content": "<p>M.B.B.S. D.N.B (Radiation Oncology). HoD, Dept. of Radiation Oncology Patel Hospital, Jalandhar</p>"
+      },
+      {
+        "imagePath": "http://patel.triverseadvertising.com/webimage/doctoer04.webp",
+        "imageAlt": "Dr. Nishant Saini",
+        "title": "Dr. Nishant Saini",
+        "content": "<p>MBBS, MD (GMCH, Chandigarh) Transfusion Medicine Specialist</p>"
+      }
+    ]
+  },
+
+  "serviecs": {
+    "title": "",
+    "servicesData": [
+      {
+        "icon": "Ambulance ",
+        "text": "24x7 <br/> Ambulance"
+      },
+      {
+        "icon": "BloodBank ",
+        "text": "24x7<br/> Blood Bank"
+      },
+      {
+        "icon": "TestTube ",
+        "text": "Lab Testing <br/>& Diagnosis"
+      },
+      {
+        "icon": "HomeSample ",
+        "text": "Home Sample <br/>Collection"
+      },
+      {
+        "icon": "MRI ",
+        "text": "Radiology <br/>& Molecular Imaging"
+      },
+      {
+        "icon": "HomeCare ",
+        "text": "Homecare and<br/> Nursing"
+      },
+      {
+        "icon": "Ambulance ",
+        "text": "Dietician and<br/> Clinical Nutrition"
+      },
+      {
+        "icon": "HealthCheckup ",
+        "text": "Health<br/> check-ups"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "JO AAVE SO RAAZI JAAVE",
+    "testimonialsData": [
+      {
+        "title": "Mrs. Rashmi",
+        "content": "<p>My journey with Patel Hospital started back in 1994. Being from Hoshiarpur, I did not have the best of facilities around to go for regular medical checkups.</p>"
+      },
+      {
+        "title": "Satwinder Singh",
+        "content": "<p>I am Satwinder Singh Walia S/o Charanjit Singh Walia from Daliwal Road, Goraya. I am patient of Dr. Joura Vishal, M.D. and i am fully satisfied with the treatment.</p>"
+      },
+      {
+        "title": "Satwinder Singh Walia",
+        "content": "<p>Thank you for providing me with a most perfect place to recover from total knee replacement surgery I was so inspired by every single person I came in contact with...</p>"
+      }
+    ]
+  },
+  "cashless": {
+    "title": "",
+    "cashlessData": [
+      {
+        "imagePath": "Logo01",
+        "imageAlt": "Logo 1"
+      },
+      {
+        "imagePath": "Logo02",
+        "imageAlt": "Logo 2"
+      },
+      {
+        "imagePath": "Logo03",
+        "imageAlt": "Logo 1"
+      },
+      {
+        "imagePath": "Logo04",
+        "imageAlt": "Logo 2"
+      },
+      {
+        "imagePath": "Logo05",
+        "imageAlt": "Logo 1"
+      },
+      {
+        "imagePath": "Logo06",
+        "imageAlt": "Logo 2"
+      },
+      {
+        "imagePath": "Logo07",
+        "imageAlt": "Logo 1"
+      },
+      {
+        "imagePath": "Logo08",
+        "imageAlt": "Logo 2"
+      },
+      {
+        "imagePath": "Logo09",
+        "imageAlt": "Logo 1"
+      },
+      {
+        "imagePath": "Logo10",
+        "imageAlt": "Logo 2"
+      },
+      {
+        "imagePath": "Logo11",
+        "imageAlt": "Logo 1"
+      },
+      {
+        "imagePath": "Logo12",
+        "imageAlt": "Logo 2"
+      },
+      {
+        "imagePath": "Logo13",
+        "imageAlt": "Logo 1"
+      },
+      {
+        "imagePath": "Logo14",
+        "imageAlt": "Logo 2"
+      },
+      {
+        "imagePath": "Logo15",
+        "imageAlt": "Logo 1"
+      }
+    ]
+  },
+  "accreditation": {
+    "title": "",
+    "accreditationData": [
+      {
+        "imagePath": "Logo01",
+        "imageAlt": "Logo 1"
+      },
+      {
+        "imagePath": "Logo02",
+        "imageAlt": "Logo 2"
+      },
+      {
+        "imagePath": "Logo03",
+        "imageAlt": "Logo 1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+
+.tabs {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #bcbec0;
+}
+  
+.tabs button {
+  padding: 15px 30px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  position: relative;
+  text-transform: uppercase;
+  margin-right: 20px;
+  font-family: var(--font);
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-height);
+  font-weight: 600;
+}
+  
+.tabs button.active:before {
+    content: '';
+    background: var(--primary);
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+}
+  .tab-content {
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form > div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 50px;
+    height: 50px;
+    text-indent: 10px;
+    position: relative;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('../../images/down.png');
+    background-repeat: no-repeat;
+    background-position: 97%;
+    background-size: 5%;
+}
+select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+select:focus + .tab-content {
+  border-top-color: #007bff;
+}
+.app-WebContainer {
+    background: var(--grey);
+    padding: 25px 0;
+}
