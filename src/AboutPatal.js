@@ -153,7 +153,7 @@ const AboutPatal = () => {
           {pageData.our_story && <OurStory Data={pageData.our_story} />}
         </div>
         <QuoteBanner
-          bannerImage={bannerImage2}
+          bannerImage={pageData.our_story.story_quote2_image}
           quoteText={pageData.our_story.story_quote2}
           quoteAuthor={pageData.our_story.story_quote2_name}
           _QuoteCenter={"col-lg-6 col-10"}
@@ -165,11 +165,9 @@ const AboutPatal = () => {
           qouteText={pageData.our_story.desc2}
         />
         <QuoteBanner
-          bannerImage={bannerImage3}
+          bannerImage={pageData.our_story.quote3_image}
           quoteText={pageData.our_story.quote3}
           quoteAuthor={pageData.our_story.quote3_name}
-          panditApte={true}
-          panditText={pageData.our_story.quote3_image}
           _QuoteCenter={"col-lg-8 col-10"}
           _QuoteHeading={"heading3"}
         />

@@ -1,4 +1,12 @@
 {
+  "homeBanner": [
+    {
+      "imagePath": "https://triverseadvertising.com/patel_website/admin-portal/uploads/18084779341716380772about-banner.webp",
+      "imageAlt": "about",
+      "title": "<span>Pioneering Healthcare </span><span>Excellence in <strong>JALANDHAR</strong></span>",
+      "content": ""
+    }
+  ],
   "overview": {
     "home_title": "PIONEERING HEALTHCARE EXCELLENCE IN JALANDHAR",
     "home_desc": [
@@ -12,7 +20,7 @@
     "image": "https://triverseadvertising.com/patel_website/admin-portal/uploads/1716193783_about-us.aeadc82c6e102f884b56.jpg",
     "quote": "Patel Hospital's working ethos is driven by the future and firmly rooted in our rich heritage and values.",
     "quote_name": "Dr. B.S. Chopra (Founder, Patel Hospital)",
-    "quote_bg_image": "https://triverseadvertising.com/patel_website/admin-portal/uploads/1716193818_quote.78feffa67c29802c1228.jpg"
+    "quote_bg_image": "https://triverseadvertising.com/patel_website/admin-portal/uploads/1716536368_quote1 (1).webp"
   },
   "our_story": {
     "story_heading": "OUR STORY",
@@ -21,17 +29,25 @@
     "story_quote": "There is something unique in this soil, which despite many obstacles has always remained the abode of great souls.",
     "story_quote_name": "SARDAR VALLABHAI PATEL",
     "story_image": "https://triverseadvertising.com/patel_website/admin-portal/uploads/1716194372_patel-ji.c31270555d99d4ed07d8 (1).png",
-    "story_big_desc": "Dr B.S. Chopra and Dr S.K. Sharma wanted to create a medical institute that would one day become a leading multispecialty hospital. Committed to the core Indian values of selfless care and customer delight, they simultaneously sought to bring the highest standards of expertise and medical excellence to their community.\r\n\r\nBuilt from the bottom up by two visionary desi boys on a mission, Patel Hospital has grown up from the soil to become a renowned centre of medical excellence, equal to meet every healthcare need with world-class treatment. Our founding doctors' unique vision, dedication, and medical skills guided Patel Hospital to the heights it has achieved today.\r\n\r\nFrom 20 beds to 250+ beds, from a small hospital in Jalandhar to a leading multispecialty medical centre in North West India, it has indeed been a journey of greatness. Proving that where integrity and patient care are prioritized, excellence will follow!\r\n\r\nOver the years, as technology evolved at a dizzying pace and medical innovations transformed the arena of medicine, Patel Hospital stayed abreast of the latest trends, always striving to deliver world-class medicine to patients.",
+    "story_big_desc": [
+      "Dr B.S. Chopra and Dr S.K. Sharma wanted to create a medical institute that would one day become a leading multispecialty hospital. Committed to the core Indian values of selfless care and customer delight, they simultaneously sought to bring the highest standards of expertise and medical excellence to their community.\r",
+      "\r",
+      "Built from the bottom up by two visionary desi boys on a mission, Patel Hospital has grown up from the soil to become a renowned centre of medical excellence, equal to meet every healthcare need with world-class treatment. Our founding doctors' unique vision, dedication, and medical skills guided Patel Hospital to the heights it has achieved today.\r",
+      "\r",
+      "From 20 beds to 250+ beds, from a small hospital in Jalandhar to a leading multispecialty medical centre in North West India, it has indeed been a journey of greatness. Proving that where integrity and patient care are prioritized, excellence will follow!\r",
+      "\r",
+      "Over the years, as technology evolved at a dizzying pace and medical innovations transformed the arena of medicine, Patel Hospital stayed abreast of the latest trends, always striving to deliver world-class medicine to patients."
+    ],
     "story_quote2": "With our motto of patient care first, above all, we knew it was imperative that Patel Hospital evolved with the times to offer the best of medical care. Today, we are proud to stand as leaders in medical innovation and technological expertise of the region!",
     "story_quote2_name": "Dr. S.K. Sharma (Founder, Patel Hospital)",
-    "story_quote2_image": "https://triverseadvertising.com/patel_website/admin-portal/uploads/",
+    "story_quote2_image": "https://triverseadvertising.com/patel_website/admin-portal/uploads/1716536368_quote2 (1).webp",
     "story_quote2_conclusion": "Patel Hospital provides international-level infrastructure, the latest technology, and cutting-edge procedures for a vast range of specialties. Whether you are looking for a routine health check-up, diagnostic services, consultation, specialized expertise, world-class surgical options, or the latest medical technology, at Patel Hospital, we offer it all. With us, you are in the trusted hands of top class medical experts, committed to providing you with the most efficient, dedicated, and caring patient experience.",
     "heading2": "HOW A BLESSING BECAME A LEGACY",
     "sub_heading2": "'Jo Aave So Raazi Jaave'",
     "desc2": "Our beloved slogan, an inspiring message speaking to the essence of our practice, is much more than a merely catchy line.\r\n\r\nThe story goes back 50 years. On the occasion of establishing a new hospital venture, Pandit Apte, one of India's respected freedom fighters and a disciple of Mahatma Gandhi, was invited to provide his counsel and blessings. Apteji then uttered the deep thought that went on to become our tagline.",
     "quote3": "'As you are starting a hospital, to serve the sick and ailing, I will not say 'May you have many customers' as one would for most new businesses. Instead, I will say\r\n'Jo Aave, So Raazi Jaave!'\r\nLet whomsoever comes here, be treated with the utmost care and leave with the greatest satisfaction for the services received.'",
     "quote3_name": "Pandit Apte",
-    "quote3_image": "https://triverseadvertising.com/patel_website/admin-portal/uploads/"
+    "quote3_image": "https://triverseadvertising.com/patel_website/admin-portal/uploads/1716536458_quote3.7ca9ec9ecc3670bbfa13 (1).webp"
   },
   "whypatel": {
     "title": "THE PILLARS OF OUR SUCCESS",
@@ -111,31 +127,31 @@
   },
   "our_ethos": {
     "our_mission_heading": "OUR MISSION",
-    "our_mission_quote": "Our mission is to bring alive our motto of\r\n'Jo Aave So Raazi Jaave' in everything we do.",
+    "our_mission_quote": "<span>Our mission is to bring alive our motto of </span><span>“Jo Aave So Raazi Jaave” in everything we do.</span>",
     "our_mission_desc": "We place our patients at the heart of everything we do, providing unparalleled service with respect and care.\r\n\r\nAt Patel, everyone matters. We welcome and care for patients from all backgrounds.\r\n\r\nWe strive to give every person associated with Patel Hospital an extraordinary experience, distinguished by our unique touch of Indian hospitality and international level care.",
     "our_mission_quote2": "'As I waited for my results, one nurse just sat with me and spoke to me so I didn't feel alone. It was very reassuring.'",
     "our_mission_quote2_name": "Ms. Ruchi",
-    "our_mission_quote2_bg_image": "https://triverseadvertising.com/patel_website/admin-portal/uploads/1716194312_quote4.33c447cc4c40aed5e410.jpg",
-    "our_vision_heading": null,
-    "our_vision_quote": "",
-    "our_vision_desc": ""
+    "our_mission_quote2_bg_image": "https://triverseadvertising.com/patel_website/admin-portal/uploads/1716536368_quote4 (1).webp",
+    "our_vision_heading": "Our Vision",
+    "our_vision_quote": "<span>\"Integrity, innovation, customer care: yesterday, today, tomorrow, forever!\"</span>",
+    "our_vision_desc": "<strong>To be the hospital of choice</strong> for every customer; patients must always choose us for our expertise, our world-class infrastructure and latest technology, and our unparalleled commitment to patient care.\r\n<strong>To become a leading network of hospitals</strong>, ensuring access to superior healthcare for all those within our operational regions through our culture of innovation and international-standard centers of excellence.\r\n<strong>To be a great place to work</strong> with a culture of fostering integrity and excellence, to attract the best talent, and to be the employer of choice."
   },
   "testimonials": {
     "title": "JO AAVE SO RAAZI JAAVE",
     "testimonialsData": [
       {
         "title": "Mrs. Rashmi",
-        "content": "\u003Cp\u003EMy journey with Patel Hospital started back in 1994. Being from Hoshiarpur, I did not have the best of facilities around to go for regular medical checkups.\u003C/p\u003E",
+        "content": "<p>My journey with Patel Hospital started back in 1994. Being from Hoshiarpur, I did not have the best of facilities around to go for regular medical checkups.</p>",
         "stars": "5"
       },
       {
         "title": "Satwinder Singh",
-        "content": "\u003Cp\u003EI am Satwinder Singh Walia S/o Charanjit Singh Walia from Daliwal Road, Goraya. I am patient of Dr. Joura Vishal, M.D. and i am fully satisfied with the treatment.\u003C/p\u003E",
+        "content": "<p>I am Satwinder Singh Walia S/o Charanjit Singh Walia from Daliwal Road, Goraya. I am patient of Dr. Joura Vishal, M.D. and i am fully satisfied with the treatment.</p>",
         "stars": "5"
       },
       {
         "title": "Satwinder Singh Walia",
-        "content": "\u003Cp\u003EThank you for providing me with a most perfect place to recover from total knee replacement surgery I was so inspired by every single person I came in contact with...\u003C/p\u003E",
+        "content": "<p>Thank you for providing me with a most perfect place to recover from total knee replacement surgery I was so inspired by every single person I came in contact with...</p>",
         "stars": "4"
       }
     ]

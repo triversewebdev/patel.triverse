@@ -1,18 +1,23 @@
-.number_Bg_Image{
-    background-image: url(../../images//Numberbanner.webp);
-  }
+.number_Bg_Image {
+  background-image: url(../../images//Numberbanner.webp);
+  background-attachment: fixed;
+  position: relative;
+}
 .countercount {
-    font-size: 70px;
-    line-height: 70px;
-    white-space: nowrap;
-    font-family: var(--adobe);
+  font-size: 70px;
+  line-height: 70px;
+  white-space: nowrap;
+  font-family: var(--adobe);
 }
-.odometer.odometer-auto-theme{
-    font-family: var(--adobe);
+.odometer.odometer-auto-theme {
+  font-family: var(--adobe);
 }
-.countercont  p {
-    letter-spacing: var(--letter3);
-    text-transform: var(--uppercase);
-    font-size: var(--midFont);
-    line-height: var(--smallHeight);
+.countercont p {
+  letter-spacing: var(--letter3);
+  text-transform: var(--uppercase);
+  font-size: var(--midFont);
+  line-height: var(--smallHeight);
 }
+.numberrow{
+    z-index: 2;
+} 

@@ -6,7 +6,7 @@ import "../CountLoader/Counter.css";
 
 const Index = ({ Data }) => {
   return (
-    <Container _parentClass="Number_Section number_Bg_Image p-100">
+    <Container _parentClass="Number_Section  number_Bg_Image p-100">
       <Title
         secondHeading={Data.title}
         _class="text-white float-start col-12"

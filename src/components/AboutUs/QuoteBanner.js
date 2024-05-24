@@ -1,8 +1,9 @@
 import React from "react";
-import ImageTag from "../ImageTag/Index";
 import "../AboutUs/Aboutus.css";
 import Webcontainer from "../WebContainer/Index";
 import Title from "../Title/Index";
+import { Parallax } from "react-parallax";
+import DoubleQuote from "../../images/Vectors/DoubleQuote";
 
 const QuoteBanner = ({
   bannerImage,
@@ -13,30 +14,63 @@ const QuoteBanner = ({
   Quote2,
   panditApte,
   panditText,
+
   qouteConculsion,
   quote2title,
   quoute2subheading,
   qouteText,
 }) => {
+  const getStrengthValue = () => {
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.platform);
+    const isMac = /MacIntel/.test(navigator.platform);
+
+    return isIOS || isMac ? 100 : 300;
+  };
+
   return (
     <>
       <section className="col-12 float-start quote__banner position-relative">
-        <ImageTag ImagePath={bannerImage} ImageAlt={quoteAuthor} />
-        <div className={`${_QuoteCenter} m-auto quote_Content absoluteCenter`}>
-          <div className="col-12 flex-center">
-            <h3
-              className={`text-white ${_QuoteHeading}`}
-              dangerouslySetInnerHTML={{ __html: quoteText }}
-            ></h3>
-            {panditApte && (
-              <h3
-                className={`text-white mt-4 ${_QuoteHeading}`}
-                dangerouslySetInnerHTML={{ __html: panditText }}
-              ></h3>
-            )}
-            <p className="text-white mt-5">{quoteAuthor}</p>
+        <Parallax
+          bgImage={bannerImage}
+          strength={getStrengthValue()}
+          className="flex-center"
+        >
+          <div
+            className={`${_QuoteCenter} m-auto quote_Content text-center text-white`}
+          >
+            <span>
+              {" "}
+              <DoubleQuote />
+            </span>
+            <div className="col-12 flex-center text-white position-relative">
+              {quoteText.split("\r\n").map((paragraph, index) => (
+                <h3
+                  className={`text-white fw-100 mt-4 ${_QuoteHeading}`}
+                  // dangerouslySetInnerHTML={{ __html: paragraph }}
+                >
+                  {paragraph}
+                </h3>
+              ))}
+              {/* <h3
+                className={`text-white fw-100 ${_QuoteHeading}`}
+                dangerouslySetInnerHTML={{ __html: quoteText }}
+              ></h3> */}
+              {panditApte && (
+                <>
+                  {panditText.split("\r\n").map((paragraph, index) => (
+                    <h3
+                      className={`text-white fw-100 mt-4 ${_QuoteHeading}`}
+                      // dangerouslySetInnerHTML={{ __html: paragraph }}
+                    >
+                      {paragraph}
+                    </h3>
+                  ))}
+                </>
+              )}
+              <p className="text-white mt-5">{quoteAuthor}</p>
+            </div>
           </div>
-        </div>
+        </Parallax>
       </section>
       {Quote2 && (
         <Webcontainer>
