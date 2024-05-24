@@ -11,18 +11,19 @@ import mail from '../../images/patel-mail.png'
 import location from '../../images/patel-location.png'
 import ImageTag from '../ImageTag/Index'
 import Magnetic from '../Magnetic/FramerMotion'
+import { Link } from 'react-router-dom'
 
 const Index = () => {
-    const items = [
-        'Heart Care',
-        'Cancer Care',
-        'Liver & Digestive Care',
-        'Nephro-Urology',
-        'Pulmonology',
-        'ENT, Head and Neck',
-        'Robotic Surgery',
-        'General and Laparoscopic Surgery',
-        'Dermatology'
+    const excellence = [
+        { text: 'Heart Care', url: '/centres-of-excellence/heart-care' },
+        { text: 'Cancer Care'},
+        { text: 'Liver & Digestive Care'},
+        { text: 'Nephro-Urology'},
+        { text: 'Pulmonology'},
+        { text: 'ENT, Head and Neck'},
+        { text: 'Robotic Surgery'},
+        { text: 'General and Laparoscopic Surgery'},
+        { text: 'Dermatology'},
       ];
   return (
     <>
@@ -38,9 +39,9 @@ const Index = () => {
                     <div className='footercolumn'>
                         <h5 className='text-black'>Centres of Excellence</h5>
                         <ul>
-            {items.map((item, index) => (
+            {excellence.map((excellence, index) => (
               <li key={index}>
-                {item}
+                 <a href={excellence.url}>{excellence.text}</a>
               </li>
             ))}
           </ul>
@@ -53,11 +54,17 @@ const Index = () => {
                     </div>
                     <div className='footercolumn'>
                         <h5 className='text-black'> Doctors</h5>
+                        <ul>
+                            <li><Link to='/doctors/doctor-details'>DR. Amber Aggrwal</Link></li>
+                            <li>DR. Nitish Kohli</li>
+                            <li>DR. Shikha Chawla</li>
+                            <li>DR. Nishant Saini</li>
+                        </ul>
                     </div>
                     <div className='footercolumn'>
                         <h5 className='text-black'> Quick Links</h5>
                         <ul>
-                            <li>About Us</li>
+                            <li><Link to='/about-us'>About Us</Link></li>
                             <li>Patient Login</li>
                             <li>Book Appointment</li>
                             <li>Gallery</li>
@@ -82,7 +89,7 @@ const Index = () => {
                 <div className='footerbox'>
                     <h4>Email</h4>
                     <ul>
-                        <li><Magnetic _parentClass={'d-flex'}><span><ImageTag ImagePath={mail} /></span><p><a href='mailto:care@patelhospital.com'>care@patelhospital.com</a></p></Magnetic></li>
+                        <li><Magnetic _parentClass={'d-flex align-items-center'}><span><ImageTag ImagePath={mail} /></span><p><a href='mailto:care@patelhospital.com'>care@patelhospital.com</a></p></Magnetic></li>
                     </ul>
                 </div>
                 </div>

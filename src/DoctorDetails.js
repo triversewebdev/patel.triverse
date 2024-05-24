@@ -1,68 +1,122 @@
-import React from 'react'
-import Banner from './components/Banner/Index'
-import BannerImg from './images/doctor_Banner.jpg'
-import LocomotiveScroll from 'locomotive-scroll';
-import WebContainer from './components/WebContainer/Index'
-import doctorImage from './images/doctoer02.webp'
-import ImageTag from './components/ImageTag/Index';
-import Fill from './components/Button/Fill/Index'
-import GsapMagnetic from './components/Magnetic/FramerMotion'
+import React, { useEffect, useState } from "react";
+import Banner from "./components/Banner/Index";
+import BannerImg from "./images/doctor_Banner.jpg";
+import WebContainer from "./components/WebContainer/Index";
+import ImageTag from "./components/ImageTag/Index";
+import Fill from "./components/Button/Fill/Index";
+import GsapMagnetic from "./components/Magnetic/FramerMotion";
+import { useParams } from "react-router-dom";
+import axios from "axios";
+import { BASE_URL } from "./Utils/useApi";
 
 const DoctorDetails = () => {
-  const locomotiveScroll = new LocomotiveScroll();
+  const { slug } = useParams();
+  const [pageData, setPageData] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(
+          `${BASE_URL}/doctor_details.php?url=${slug}`
+        );
+        setPageData(response.data.doctorDetails);
+      } catch (error) {
+        setError(error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
+  }, [slug]);
+  console.log("doctorData", pageData);
+
+  if (isLoading) return <div>Loading...</div>;
+  if (error) return <div>Error: {error.message}</div>;
+
   return (
     <>
-      <main className='col-12 float-start' data-scroll-container>
-        <Banner BannerImage={BannerImg} />
-        <WebContainer _parentClass={'doctorsBio p-100 pt-0'}>
-          <div className='row'>
-            <div className='col-lg-4 col-12'>
-              <ImageTag ImagePath={doctorImage} />
+      <main className="col-12 float-start" data-scroll-container>
+        <Banner
+          BannerImage={BannerImg}
+          pageChildName={"Dr. Naveen Khanna"}
+          pageName={"Doctors"}
+          pageUrl={"/doctors"}
+        />
+        <WebContainer _parentClass={"doctorsBio p-100 pt-0"}>
+          <div className="row">
+            <div className="col-lg-4 col-12">
+              {pageData.imagePath && (
+                <ImageTag ImagePath={pageData.imagePath} />
+              )}
             </div>
-            <div className='col-lg-8 col-12'>
-              <div className='doctorName mb-3 col-12 float-start'>
-                <h3 className='heading4 fw-600 text-black'>Dr. Naveen Khanna</h3>
-                <p className='m-0'>Consultant Cardiologist</p>
+            <div className="col-lg-8 col-12">
+              <div className="doctorName mb-3 col-12 float-start">
+                {pageData.name && (
+                  <h3 className="heading4 fw-600 text-black">
+                    {pageData.name}
+                  </h3>
+                )}
+                {pageData.designation && (
+                  <p className="m-0">{pageData.designation}</p>
+                )}
               </div>
-              <div className='doctorInfo mt-4 col-12 float-start'>
-                <div className='doctorTitle position-relative mb-3'>
-                  <h4 className='heading4 fw-600 secondary-color bg-white'>Education</h4>
+              {pageData.education && (
+                <div className="doctorInfo mt-4 col-12 float-start">
+                  <div className="doctorTitle position-relative mb-3">
+                    <h4 className="heading4 fw-600 secondary-color bg-white">
+                      Education
+                    </h4>
+                  </div>
+                  <div className="doctorCont">
+                    {pageData.education.map((edu, index) => (
+                      <p key={index}>{edu.trim()}</p>
+                    ))}
+                  </div>
                 </div>
-                <div className='doctorCont'>
-                  <p>MBBS – GMC, Amritsar (and associated hospitals)</p><p>
-                    Post-Graduation – MLN Medical College, Allahabad</p><p>
-                    MD (Medicine) – AIIMS</p><p>
-                    DM (Cardiology) – AIIMS</p>
+              )}
+              {pageData.expertise && (
+                <div className="doctorInfo mt-4 col-12 float-start">
+                  <div className="doctorTitle position-relative mb-3">
+                    <h4 className="heading4 fw-600 secondary-color bg-white">
+                      Expertise
+                    </h4>
+                  </div>
+                  <div className="doctorCont">
+                    <p>{pageData.expertise}</p>
+                  </div>
                 </div>
+              )}
+              {pageData.experience ||
+                (!pageData.experience("") && (
+                  <div className="doctorInfo mt-4 col-12 float-start">
+                    <div className="doctorTitle position-relative mb-3">
+                      <h4 className="heading4 fw-600 secondary-color bg-white">
+                        Experience
+                      </h4>
+                    </div>
+                    <div className="doctorCont">
+                      <p>{pageData.experience}</p>
+                    </div>
+                  </div>
+                ))}
+              <div className="col-lg-4 col-12 float-start mt-5 ">
+                <GsapMagnetic>
+                  <Fill
+                    buttonText1={"Book an appointment"}
+                    buttonText2={"Book an appointment"}
+                    _class={"secondarybtn w-auto "}
+                  />
+                </GsapMagnetic>
               </div>
-              <div className='doctorInfo mt-4 col-12 float-start'>
-                <div className='doctorTitle position-relative mb-3'>
-                  <h4 className='heading4 fw-600 secondary-color bg-white'>Expertise</h4>
-                </div>
-                <div className='doctorCont'>
-                  <p>Angiography and Angioplasty | Primary Percutaneous Coronary Intervention (PCI) Valve 
-Insertions | Intra-Aortic Balloon Pump (IABP) & Other Interventional Procedures</p>
-                </div>
-              </div>
-              <div className='doctorInfo mt-4 col-12 float-start'>
-                <div className='doctorTitle position-relative mb-3'>
-                  <h4 className='heading4 fw-600 secondary-color bg-white'>Experience</h4>
-                </div>
-                <div className='doctorCont'>
-                  <p>Dr. Naveen Khanna has worked for more than five years at Escort Hospital, New Delhi before joining the Patel Hospital team as a Consultant Cardiologist. He is an expert in various diseases of the heart as well as many non-invasive and invasive procedures like Echocardiography, TMT, 24 Hours Holter Monitoring, Coronary Angiography, Coronary Stenting and Pacemakers. </p>
-                </div>
-              </div>
-             <div className='col-lg-4 col-12 float-start mt-5'>
-             <GsapMagnetic>
-             <Fill buttonText1={'Book an appointment'} buttonText2={'Book an appointment'} _class={'secondarybtn w-auto '}/>
-             </GsapMagnetic>
-             </div>
             </div>
           </div>
         </WebContainer>
       </main>
     </>
-  )
-}
+  );
+};
 
-export default DoctorDetails
+export default DoctorDetails;

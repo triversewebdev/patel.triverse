@@ -17,10 +17,7 @@
     margin-bottom: 30px;
     color: var(--black);
 }
-.doctorsinfo p {
-    font-weight: 600;
-    color: var(--black);
-}
+
 .doctorsinfo .col-12.float-start {
     height: 180px;
 }

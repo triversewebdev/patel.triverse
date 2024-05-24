@@ -1,4 +1,3 @@
-// Index.js
 import React, { useEffect, useState } from 'react';
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -19,7 +18,7 @@ import { NavLink } from 'react-router-dom';
 const menuData = [
   { name: 'Home', link: '/' },
   { 
-    name: 'Centres of Excellence', 
+    name: 'Centres of Excellence', link: '/centres-of-excellence',
     submenus: [
       { icon: <Heart themeColor='primary-color' />, text: 'Patel Heart Advanced Cardiac Centre' },
       { icon: <Nephrology themeColor='primary-color' />, text: 'Patel Advanced Nephro-Urology' },
@@ -32,7 +31,7 @@ const menuData = [
       { icon: <Derma themeColor='primary-color' />, text: 'Patel Dermagique' }
     ]
   },
-  { name: 'Service', link: '/services' },
+  { name: 'Services', link: '/services' },
   { name: 'Doctors', link: '/doctors' },
   { name: 'Cashless Service', link: '/cashless-service' },
   { name: 'About Us', link: '/about-us' },
@@ -52,9 +51,9 @@ const Index = () => {
   return (
     <div className='navbar gap-3 p-0'>
       <div className='col-12 float-start d-flex justify-content-end gap-3'>
-        <Outline buttonText='Patient Login' pageLink='/patient-login' />
         <Outline buttonText='Book an Appointment' pageLink='/book-an-appoinment' />
         <Fill buttonText2='Emergency' buttonText1='+91-98152-90790' />
+        <Outline buttonText='Login' _class={'bluebtn'} OutlineDropdown={true}/>
       </div>
       <div className='col-12 float-start navbarcolumn d-flex justify-content-end align-items-center'>
         <div className='menuStrip'>

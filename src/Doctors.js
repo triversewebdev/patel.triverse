@@ -1,67 +1,84 @@
-import React from 'react'
-import DoctorsData from './components/Doctors/Index'
-import Banner01 from './images/doctoer01.webp';
-import Banner02 from './images/doctoer02.webp';
-import Banner03 from './images/doctoer03.webp';
-import Banner04 from './images/doctoer04.webp';
+import React, { useState, useEffect } from "react";
+import WebContainer from "./components/WebContainer/Index";
+import Title from "./components/Title/Index";
+import ImageTag from "./components/ImageTag/Index";
+import "./components/Doctors/Doctors.css";
+import Container from "./components/Container/Index";
+import BreadCrumb from "./components/BreadCrumb/Index";
+import Fill from "./components/Button/Fill/Index";
+import axios from "axios";
+import { BASE_URL } from "./Utils/useApi";
 
 const Doctors = () => {
-    const DocterData = [
-        {
-          imagePath: Banner01,
-          imageAlt: 'Dr. Amber Aggrwal',
-          title: 'Dr. Amber Aggrwal',
-          content: '<p>MBBS, DNB (Obstetrics & Gynaecology)</p> <p>MCh. Reproductive Medicine (IVF), UK</p>'
-        },
-        {
-          imagePath: Banner02,
-          imageAlt: 'Dr. Nitish Kohli',
-          title: 'Dr. Nitish Kohli',
-          content: '<p>MBBS, MS (Orthopedics) Consultant Orthopedics & Joint Replacement Surgeon</p>'
-        },
-        {
-            imagePath: Banner03,
-            imageAlt: 'Dr. Shikha Chawla',
-            title: 'Dr. Shikha Chawla',
-            content: '<p>M.B.B.S. D.N.B (Radiation Oncology). HoD, Dept. of Radiation Oncology Patel Hospital, Jalandhar</p>'
-          },
-          {
-            imagePath: Banner04,
-            imageAlt: 'Dr. Nishant Saini',
-            title: 'Dr. Nishant Saini',  
-            content: '<p>MBBS, MD (GMCH, Chandigarh) Transfusion Medicine Specialist</p>'      
-          },
-          {
-            imagePath: Banner01,
-            imageAlt: 'Dr. Amber Aggrwal',
-            title: 'Dr. Amber Aggrwal',
-            content: '<p>MBBS, DNB (Obstetrics & Gynaecology)</p> <p>MCh. Reproductive Medicine (IVF), UK</p>'
-          },
-          {
-            imagePath: Banner02,
-            imageAlt: 'Dr. Nitish Kohli',
-            title: 'Dr. Nitish Kohli',
-            content: '<p>MBBS, MS (Orthopedics) Consultant Orthopedics & Joint Replacement Surgeon</p>'
-          },
-          {
-              imagePath: Banner03,
-              imageAlt: 'Dr. Shikha Chawla',
-              title: 'Dr. Shikha Chawla',
-              content: '<p>M.B.B.S. D.N.B (Radiation Oncology). HoD, Dept. of Radiation Oncology Patel Hospital, Jalandhar</p>'
-            },
-            {
-              imagePath: Banner04,
-              imageAlt: 'Dr. Nishant Saini',
-              title: 'Dr. Nishant Saini',  
-              content: '<p>MBBS, MD (GMCH, Chandigarh) Transfusion Medicine Specialist</p>'      
-            },
-               
-      ];
+  const [pageData, setPageData] = useState(null);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await axios.get(`${BASE_URL}/doctor.php`);
+        setPageData(response.data);
+      } catch (error) {
+        setError(error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+  console.log("doctor data", pageData);
+
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>Error: {error.message}</div>;
+  }
   return (
     <>
-        <DoctorsData Data={DocterData} />
+      <Container _parentClass="gray_Background">
+        <BreadCrumb pageName={"Doctors"} />
+      </Container>
+      <WebContainer _parentClass="doctors p-100 gray_Background">
+        <Title secondHeading={"MEET OUR DOCTORS"} _class={"mt-0"} />
+        <div className="col-12 float-start">
+          <div className="row">
+            {pageData.doctors &&
+              pageData.doctors.map((doctor, index) => (
+                <>
+                  <div key={index} className="col-lg-3 col-xs-6 col-12 pb-4">
+                    <div className="doctorsprofile">
+                      <ImageTag
+                        ImagePath={doctor.imagePath}
+                        ImageClass={"w-100"}
+                      />
+                    </div>
+                    <div className="doctorsinfo col-12 float-start bg-white border p-4">
+                      <h3>{doctor.name}</h3>
+                      <div
+                        className="col-12 float-start"
+                        dangerouslySetInnerHTML={{
+                          __html: doctor.designation,
+                        }}
+                      />
+                      <Fill
+                        buttonText1={"Read More"}
+                        buttonText2={"Read More"}
+                        _class={"secondarybtn"}
+                        pageLink={`/doctor-details/${doctor.slug}`}
+                      />
+                    </div>
+                  </div>
+                </>
+              ))}
+          </div>
+        </div>
+      </WebContainer>
     </>
-  )
-}
+  );
+};
 
-export default Doctors
+export default Doctors;

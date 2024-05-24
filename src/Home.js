@@ -33,12 +33,6 @@ const Home = () => {
     fetchData();
   }, []);
 
-  useEffect(() => {
-    if (pageData) {
-      const locomotiveScroll = new LocomotiveScroll();
-    }
-  }, [pageData]);
-
   if (isLoading) {
     return <div>Loading...</div>;
   }

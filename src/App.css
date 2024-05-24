@@ -2,8 +2,8 @@
   --main-font-size: 18px;
   --main-line-height: 26px;
   --font: AvertaStd, Arial, sans-serif;
-  --adobe: "Adobe Garamond Pro";
-  --bebas: "Bebas Neue";
+  --adobe: 'Adobe Garamond Pro';
+  --bebas: 'Bebas Neue';
   --primary: #20a757;
   --secondary: #0c54a0;
   --blue: #163d68;
@@ -18,10 +18,11 @@
   --uppercase: uppercase;
   --letter1: 1px;
   --black70: rgb(0 0 0 / 70%);
+
 }
 
 body {
-  color: var(--black70);
+  color:var(--black70);
   font-family: var(--font);
   font-size: var(--main-font-size);
   font-weight: 400;
@@ -57,8 +58,7 @@ p {
   margin-bottom: 25px;
   line-height: 1.6;
 }
-.radius-50,
-.ui.fluid.dropdown {
+.radius-50, .ui.fluid.dropdown {
   border-radius: 50px;
 }
 .gray-background {
@@ -83,11 +83,10 @@ p {
   background-color: var(--primary);
 }
 
-.ctasection,
-.outline-button .btn-8.bluebtn {
+.ctasection, .outline-button .btn-8.bluebtn {
   background-color: var(--blue);
 }
-.outline-button .btn-8.bluebtn {
+.outline-button .btn-8.bluebtn{
   color: var(--white);
 }
 
@@ -115,19 +114,19 @@ main {
 }
 
 .title h4 {
-  position: relative;
-  font-size: 42px;
-  line-height: 50px;
-  text-transform: uppercase;
   color: var(--secondary);
-  letter-spacing: 1px;
-  width: 90%;
-  margin: auto;
+  font-size: 36px;
   font-weight: 300;
+  line-height: 50px;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  letter-spacing: var(--letter1);
+  text-transform: uppercase;
 }
 /* .title h4:before */
 .bannerh2::before {
-  content: "";
+  content: '';
   width: 125px;
   height: 5px;
   background: var(--primary);
@@ -155,29 +154,19 @@ main {
   margin-bottom: 10%;
   overflow: hidden;
 }
-.Services .iconcircle span svg,
-.Services .iconcircle span,
-.cardbox img,
-.cardParent img,
-.doctorsprofile img,
-.iconcircle span svg {
+.Services .iconcircle span svg, .Services .iconcircle span, .cardbox img, .cardParent img, .doctorsprofile img, .iconcircle span svg{  
   transition: ease all 0.5s !important;
 }
-.cardbox:hover img,
-.cardParent:hover img,
-.doctorslide:hover .doctorsprofile img,
-.iconcircle:hover span svg {
+.cardbox:hover img, .cardParent:hover img, .doctorslide:hover .doctorsprofile img, .iconcircle:hover span svg{
   transform: scale(1.05);
 }
-.Services .iconcircle:hover span {
-  background: var(--grey);
-}
+.Services .iconcircle:hover span {background: var(--grey);}
 
 .Services .iconcircle:hover span svg path {
-  fill: var(--primary);
+    fill: var(--primary);
 }
 .cardbox:before {
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   background: var(--grey);
@@ -186,34 +175,30 @@ main {
   transition: ease all 0.5s;
   transition-delay: 0.5s;
 }
-.why_Patel .flex-center:nth-child(2) .cardbox:before {
+.why_Patel .flex-center:nth-child(2) .cardbox:before{
   transition: ease all 0.6s;
   transition-delay: 0.6s;
 }
-.why_Patel .flex-center:nth-child(3) .cardbox:before {
+.why_Patel .flex-center:nth-child(3) .cardbox:before{
   transition: ease all 0.7s;
   transition-delay: 0.7s;
 }
-.why_Patel .flex-center:nth-child(4) .cardbox:before {
+.why_Patel .flex-center:nth-child(4) .cardbox:before{
   transition: ease all 0.8s;
   transition-delay: 0.8s;
 }
-.why_Patel .flex-center:nth-child(5) .cardbox:before {
+.why_Patel .flex-center:nth-child(5) .cardbox:before{
   transition: ease all 0.9s;
   transition-delay: 0.9s;
 }
-.why_Patel .flex-center:nth-child(6) .cardbox:before {
+.why_Patel .flex-center:nth-child(6) .cardbox:before{
   transition: ease all 1s;
   transition-delay: 1s;
 }
 .why_Patel .flex-center.aos-init.aos-animate .cardbox::before {
   width: 0;
 }
-.accreditation img {
-  transition: ease all 0.5s;
-  transition-delay: 0.75s;
-  transform: scale(0, 1);
-}
+.accreditation img {transition: ease all 0.5s;transition-delay: 0.75s;transform: scale(0, 1);}
 .accreditation .col-lg-3.col-xs-6.col-12.aos-init.aos-animate img {
   transform: scale(1, 1);
 }
@@ -230,29 +215,29 @@ main {
 }
 
 html.lenis {
-  height: auto;
+  height: auto
 }
 
 .lenis.lenis-smooth {
-  scroll-behavior: auto;
+  scroll-behavior: auto
 }
 
 .lenis.lenis-smooth [data-lenis-prevent] {
-  overscroll-behavior: contain;
+  overscroll-behavior: contain
 }
 
 .lenis.lenis-stopped {
-  overflow: hidden;
+  overflow: hidden
 }
 
 .lenis.lenis-scrolling iframe {
-  pointer-events: none;
+  pointer-events: none
 }
 .removeBand:before {
   display: none;
 }
 /* Headings */
-.heading4 {
+.heading4{
   font-size: 28px;
   line-height: 30px;
   font-weight: 300;
@@ -263,42 +248,38 @@ html.lenis {
   line-height: 56px;
   font-weight: 300;
 }
-.heading3 {
+.heading3{
   font-size: 36px;
   line-height: 46px;
   font-weight: 300;
 }
-.heading5 {
+.heading5{
   font-size: 22px;
   line-height: 28px;
 }
-.fw-500 {
+.fw-500{
   font-weight: 500;
 }
-.fw-600 {
+.fw-600{
   font-weight: 600;
 }
-.fw-300 {
+.fw-300{
   font-weight: 300;
 }
-.fw-100 {
+.fw-100{
   font-weight: 100;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
   font-family: var(--font);
   line-height: inherit;
   font-size: inherit;
-  margin: calc(2rem - 0.14285714em) 0 1rem;
-  font-weight: inherit;
+  margin: calc(2rem - .14285714em) 0 1rem;
+  font-weight:inherit;
   padding: 0;
 }
 /* Doctor Detail */
 .doctorTitle:after {
-  content: "";
+  content: '';
   width: 100%;
   height: 1px;
   background: #b3b5b7;
@@ -317,7 +298,7 @@ h5 {
 .doctorCont p {
   margin: 0 0 10px 0;
 }
-.container {
+.container{
   max-width: 94%;
   width: 94%;
 }
@@ -325,20 +306,22 @@ h5 {
   width: 77%;
   margin: auto;
 }
-.number_Bg_Image:before,
-.react-parallax::before {
-  content: "";
-  background: var(--black70);
+.number_Bg_Image:before, .react-parallax::before {
+  content: '';
+  background:var(--black70);
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
 }
-.react-parallax::before {
+.react-parallax::before{
   z-index: 1;
 }
-.technology .slick-list {
+.technology .slick-list{
   width: 90%;
   margin: 0 auto;
+}
+.row-space-50{
+  row-gap: 50px;
 }

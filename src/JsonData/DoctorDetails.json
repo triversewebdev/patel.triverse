@@ -1,0 +1,23 @@
+[
+  {
+    "doctorDetails": {
+      "id": "3",
+      "imagePath": "https://triverseadvertising.com/patel_website/admin-portal/uploads/493658011716547454doctoer02.ebc9481699090f2fc63e.webp",
+      "name": "Dr. Naveen Khanna",
+      "slug": "dr-naveen-khanna",
+      "designation": "Consultant Cardiologist",
+      "education": [
+        "MBBS - GMC, Amritsar (and associated hospitals)\r",
+        "Post-Graduation - MLN Medical College, Allahabad\r",
+        "MD (Medicine) - AIIMS\r",
+        "DM (Cardiology) - AIIMS"
+      ],
+      "expertise": [
+        "Angiography and Angioplasty | Primary Percutaneous Coronary Intervention (PCI) Valve Insertions | Intra-Aortic Balloon Pump (IABP) &amp; Other Interventional Procedures"
+      ],
+      "experience": [
+        "Dr. Naveen Khanna has worked for more than five years at Escort Hospital, New Delhi before joining the Patel Hospital team as a Consultant Cardiologist. He is an expert in various diseases of the heart as well as many non-invasive and invasive procedures like Echocardiography, TMT, 24 Hours Holter Monitoring, Coronary Angiography, Coronary Stenting and Pacemakers."
+      ]
+    }
+  }
+]

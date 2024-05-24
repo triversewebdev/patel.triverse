@@ -30,12 +30,9 @@ a {
     margin-bottom: 25px;
 }
 .footercolumn:nth-child(2) {
-    max-width: 210px;
+    max-width: 200px;
 }
 
-.footercolumn ul li {
-    padding: 5px 0;
-}
 .footerbox span {
     width: 35px;
     height: 35px;
@@ -53,14 +50,15 @@ a {
 
 .footerbox ul li {
     padding: 5px 0;
-    display: flex;
+    display: flex;    
+    font-size: medium;
 }
 
 .footerbox ul li p {
     width: auto;
     float: left;
     margin: 0;
-    font-size: var(--midFont);
+    font-size: medium;
 }
 .footerbox span svg path{
  fill: var(--black);
@@ -68,3 +66,4 @@ a {
 .copyrightcont p{
     font-size: var(--smallFont);
 }
+.footerbox ul li a:hover {color: var(--primary);}
