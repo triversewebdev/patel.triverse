@@ -1,0 +1,166 @@
+{
+  "bannerContent": "<strong>ADVANCED HEART CARE </strong><span>EVERY HEARTBEAT MATTERS</span>",
+  "overview": {
+    "title": "Where Every Heartbeat Matters",
+    "home_desc": [
+      "Patel Hospital offers expert consultation, diagnosis, treatment and surgical options for heart care. The spacious and well-maintained premises of Patel Hospital in Jalandhar are well-equipped to provide all kinds of clinical diagnosis of heart conditions, starting from prevention of cardiac diseases to treatment of heart attack, bypass surgery, open-heart surgery, valvular interventions, angioplasty, congenital ailments, and cardiac rehabilitation.",
+      "The hospital also provides non-invasive echocardiography, TMT, angiographies, angioplasties, treatment of coronary artery and peripheral vascular diseases, valvular interventions and more.",
+      "The advanced CCU is also an excellent centre of care for heart patients.",
+      "Highly operational and reliable in case of all cardiac emergencies, the entire team and infrastructure at Patel Hospital is designed to make it the best heart treatment hospital in Jalandhar."
+    ],
+    "image": "http://patel.triverseadvertising.com/webimage/heart-care.jpg"
+  },
+  "doctors": {
+    "title": "MEET OUR DOCTORS",
+    "doctorData": [
+      {
+        "imagePath": "http://patel.triverseadvertising.com/webimage/doctoer01.webp",
+        "imageAlt": "Dr. Amber Aggrwal",
+        "title": "Dr. Amber Aggrwal",
+        "content": "<p>MBBS, DNB (Obstetrics & Gynaecology)</p> <p>MCh. Reproductive Medicine (IVF), UK</p>"
+      },
+      {
+        "imagePath": "http://patel.triverseadvertising.com/webimage/doctoer02.webp",
+        "imageAlt": "Dr. Nitish Kohli",
+        "title": "Dr. Nitish Kohli",
+        "content": "<p>MBBS, MS (Orthopedics) Consultant Orthopedics & Joint Replacement Surgeon</p>"
+      },
+      {
+        "imagePath": "http://patel.triverseadvertising.com/webimage/doctoer03.webp",
+        "imageAlt": "Dr. Shikha Chawla",
+        "title": "Dr. Shikha Chawla",
+        "content": "<p>M.B.B.S. D.N.B (Radiation Oncology). HoD, Dept. of Radiation Oncology Patel Hospital, Jalandhar</p>"
+      },
+      {
+        "imagePath": "http://patel.triverseadvertising.com/webimage/doctoer04.webp",
+        "imageAlt": "Dr. Nishant Saini",
+        "title": "Dr. Nishant Saini",
+        "content": "<p>MBBS, MD (GMCH, Chandigarh) Transfusion Medicine Specialist</p>"
+      }
+    ]
+  },
+  "specialities": [
+    {
+      "image": "http://patel.triverseadvertising.com/webimage/specialise-01.jpg",
+      "title": "Interventional Cardiology",
+      "description": [
+        "Patel Hospital introduced interventional cardiology to their roster of medical services in 2013. Since then, the hospital has been a leading provider of 24x7 emergency care for cardiac patients in Jalandhar.",
+        "The expert and experienced cardiologists at Patel Hospital treat a number of cardiac diseases and emergencies, including myocardial infarction, acute pulmonary thromboembolism, and cardiac arrhythmias, such as heart failure, cardiac tamponade, and various heart blocks."
+      ]
+    },
+    {
+      "image": "http://patel.triverseadvertising.com/webimage/specialise-02.jpg",
+      "title": "Cardio-Thoracic & Vascular Surgery",
+      "description": [
+        "Patel Hospital has world-class cardiovascular and thoracic surgery infrastructure with a team of experienced and dedicated cardiac surgeons. This expert team has performed several surgeries and procedures, including major cardiac and thoracic operations, with results comparable to the best in the world. The focus is always on best results and patient comfort – most of the CABGs are done off-pump thereby reducing post-operative neurological, renal and respiratory complications for the patients."
+      ]
+    }
+  ],
+  "treatement": {
+    "title": "COMPREHENSIVE HEART CARE & SPECIALIZED SURGERIES",
+    "treatments": [
+      {
+        "title": "Primary PCI",
+        "content": "1st slider 24*7 cath lab with dedicated staff for the best-recommended treatment for acute myocardial infarction to reduce muscle damage with long-term mortality benefits.",
+        "image": "http://patel.triverseadvertising.com/webimage/primary-pci.jpg"
+      },
+      {
+        "title": "Coronary Angiography",
+        "content": "2nd slider 24*7 cath lab with dedicated staff for the best-recommended treatment for acute myocardial infarction to reduce muscle damage with long-term mortality benefits.",
+        "image": "http://patel.triverseadvertising.com/webimage/primary-pci.jpg"
+      },
+      {
+        "title": "Coronary Stenting",
+        "content": "3rd slider 24*7 cath lab with dedicated staff for the best-recommended treatment for acute myocardial infarction to reduce muscle damage with long-term mortality benefits.",
+        "image": "http://patel.triverseadvertising.com/webimage/primary-pci.jpg"
+      },
+      {
+        "title": "Pacemaker Insertion",
+        "content": "4th slider 24*7 cath lab with dedicated staff for the best-recommended treatment for acute myocardial infarction to reduce muscle damage with long-term mortality benefits.",
+        "image": "http://patel.triverseadvertising.com/webimage/primary-pci.jpg"
+      },
+      {
+        "title": "Intra-Aortic Balloon Pump (IABP)",
+        "content": "5th slider 24*7 cath lab with dedicated staff for the best-recommended treatment for acute myocardial infarction to reduce muscle damage with long-term mortality benefits.",
+        "image": "http://patel.triverseadvertising.com/webimage/primary-pci.jpg"
+      },
+      {
+        "title": "Pericardio Centres",
+        "content": "6th slider 24*7 cath lab with dedicated staff for the best-recommended treatment for acute myocardial infarction to reduce muscle damage with long-term mortality benefits.",
+        "image": "http://patel.triverseadvertising.com/webimage/primary-pci.jpg"
+      },
+      {
+        "title": "2D Echocardiography",
+        "content": "7th slider 24*7 cath lab with dedicated staff for the best-recommended treatment for acute myocardial infarction to reduce muscle damage with long-term mortality benefits.",
+        "image": "http://patel.triverseadvertising.com/webimage/primary-pci.jpg"
+      },
+      {
+        "title": "Colour Doppler",
+        "content": "8th slider 24*7 cath lab with dedicated staff for the best-recommended treatment for acute myocardial infarction to reduce muscle damage with long-term mortality benefits.",
+        "image": "http://patel.triverseadvertising.com/webimage/primary-pci.jpg"
+      }
+    ]
+  },
+  "technologyAndFacilty": [
+    {
+      "imagePath": "http://patel.triverseadvertising.com/webimage/technology-01.webp",
+      "imageAlt": "State-Of-The-Art Cardiac Cath Lab (SIEMENS)",
+      "title": "State-Of-The-Art Cardiac Cath Lab (SIEMENS)"
+    },
+    {
+      "imagePath": "http://patel.triverseadvertising.com/webimage/technology-02.webp",
+      "imageAlt": "Exemplary Heart Command Centre (Coronary Care Unit)",
+      "title": "Exemplary Heart Command Centre (Coronary Care Unit)",
+      "content": "<ul><li>MBBS, MS (Orthopedics) Consultant Orthopedics & Joint Replacement Surgeon</li><li>3 well equipped cardiac theatres</li><li>1 theatre exclusively for thoracic surgery and endoscopy</li><li>Hermetically sealed automatic doors</li><li>LED lights and pendant-mounted anaesthesia machines</li></ul>"
+    },
+    {
+      "imagePath": "http://patel.triverseadvertising.com/webimage/technology-03.webp",
+      "imageAlt": "High-Tech Heart - Lung Machine",
+      "title": "High-Tech Heart - Lung Machine",
+      "content": "<ul><li>M.B.B.S. D.N.B (Radiation Oncology). HoD, Dept. of Radiation Oncology Patel Hospital, Jalandhar</li><li>3 well equipped cardiac theatres</li><li>1 theatre exclusively for thoracic surgery and endoscopy</li><li>Hermetically sealed automatic doors</li><li>LED lights and pendant-mounted anaesthesia machines</li></ul>"
+    },
+    {
+      "imagePath": "http://patel.triverseadvertising.com/webimage/technology-01.webp",
+      "imageAlt": "Exemplary Heart Command Centre (Coronary Care Unit)",
+      "title": "Exemplary Heart Command Centre (Coronary Care Unit)",
+      "content": "<ul><li>MBBS, MS (Orthopedics) Consultant Orthopedics & Joint Replacement Surgeon</li><li>3 well equipped cardiac theatres</li><li>1 theatre exclusively for thoracic surgery and endoscopy</li><li>Hermetically sealed automatic doors</li><li>LED lights and pendant-mounted anaesthesia machines</li></ul>"
+    }
+  ],
+  "whypatel": {
+    "title": "LATEST TECHNOLOGY & WORLD-CLASS FACILITIES",
+    "Data": [
+      {
+        "title": "Established Expertise",
+        "content": "Our team of highly qualified, experienced and talented cardiologists and cardiac surgeons work dedicatedly to provide world-class services for interventional and non-invasive cardiovascular diagnosis and treatments.",
+        "image": "http://patel.triverseadvertising.com/webimage/primary-pci.jpg"
+      },
+      {
+        "title": "Best of Infrastructure",
+        "content": "With high-end infrastructure, latest technology and international standard equipment, Patel Hospital is able to provide advanced and accurate treatment facilities at a reasonable rate.",
+        "image": "http://patel.triverseadvertising.com/webimage/primary-pci.jpg"
+      },
+      {
+        "title": "Service First",
+        "content": "The allied staff at Patel Hospital ensures extensive patient care to create a comfortable, soothing and positive ambience for the patients and promote speedy healing.",
+        "image": "http://patel.triverseadvertising.com/webimage/primary-pci.jpg"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "JO AAVE SO RAAZI JAAVE",
+    "testimonialsData": [
+      {
+        "title": "Mrs. Rashmi",
+        "content": "<p>My journey with Patel Hospital started back in 1994. Being from Hoshiarpur, I did not have the best of facilities around to go for regular medical checkups.</p>"
+      },
+      {
+        "title": "Satwinder Singh",
+        "content": "<p>I am Satwinder Singh Walia S/o Charanjit Singh Walia from Daliwal Road, Goraya. I am patient of Dr. Joura Vishal, M.D. and i am fully satisfied with the treatment.</p>"
+      },
+      {
+        "title": "Satwinder Singh Walia",
+        "content": "<p>Thank you for providing me with a most perfect place to recover from total knee replacement surgery I was so inspired by every single person I came in contact with...</p>"
+      }
+    ]
+  }
+}

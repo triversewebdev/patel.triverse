@@ -14,6 +14,7 @@ import Breathing from '../../../images/Vectors/Breathing';
 import Robotic from '../../../images/Vectors/Robotic';
 import Radiology from '../../../images/Vectors/Radiology';
 import { NavLink } from 'react-router-dom';
+import Container from '../../Container/Index';
 
 const menuData = [
   { name: 'Home', link: '/' },
@@ -35,7 +36,7 @@ const menuData = [
   { name: 'Doctors', link: '/doctors' },
   { name: 'Cashless Service', link: '/cashless-service' },
   { name: 'About Us', link: '/about-us' },
-  { name: 'Contact', link: '/contact' }
+  { name: 'Contact Us', link: '/contact-us' }
 ];
 
 const Index = () => {
@@ -74,7 +75,15 @@ const Index = () => {
           </button>
         </div>
         <div className={menus ? 'menus active' : 'menus'}>
-          <SubMenu submenus={menuData[1].submenus} />  
+          <Container _parentClass={'dropdown-content'}>
+              <div className='col-12 float-start flex-center justify-content-end'>
+                <ul className='px-5 d-flex'>
+                  <li className='text-uppercase text-white'><NavLink to='https://careers.patelhospital.com/jobs/Careers' target='_blank'>Career</NavLink></li>
+                  <li className='text-uppercase text-white'><NavLink to='/media'>Media</NavLink></li>
+                  <li className='text-uppercase text-white'><NavLink to='/'>Patient Room</NavLink></li>
+                </ul>
+              </div>
+          </Container>
         </div>
       </div>
     </div>

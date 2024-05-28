@@ -12,9 +12,6 @@
     height: 80px;
 }
 
-.sticky .dropdown-content {
-    top: 80%;
-}
 
 header {
     min-height: 130px;

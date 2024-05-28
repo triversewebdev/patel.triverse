@@ -68,7 +68,7 @@ const Doctors = () => {
                         buttonText1={"Read More"}
                         buttonText2={"Read More"}
                         _class={"secondarybtn"}
-                        pageLink={`/doctor-details/${doctor.slug}`}
+                        pageLink={`/doctors/${doctor.slug}`}
                       />
                     </div>
                   </div>

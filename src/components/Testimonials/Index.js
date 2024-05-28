@@ -4,10 +4,10 @@ import Title from "../Title/Index";
 import "../Testimonials/Testimonials.css";
 import SlickSlider from "../HeroSlider/slickSlider";
 
-const Index = ({ Data }) => {
+const Index = ({ Data, snapHeading }) => {
   return (
     <Container _parentClass="doctors p-100 gray_Background">
-      <Title secondHeading={Data.title} />
+      <Title firstHeading={snapHeading} secondHeading={Data.title} />
       <div className="col-lg-10 m-auto position-relative slider">
         <SlickSlider
           slides={Data.testimonialsData}

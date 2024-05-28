@@ -3,14 +3,17 @@
     font-size: 13px;
     letter-spacing: .5px;
     padding-right: 25px;
-    color: #979797;
+    color: #979797;    
+    color: var(--primary);
 }
-.pagebreadcumb  ul li a:after {
+.pagebreadcumb ul li a:after {
     content: ">";
     position: absolute;
-    right: -16px;
+    right: -15px;
+    font-family: monospace;
 }
 .pagebreadcumb ul li a {
-    color: var(--primary);
     position: relative;
+    color: #535353;
+    font-weight: 600;
 }

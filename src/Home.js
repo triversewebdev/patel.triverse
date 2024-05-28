@@ -49,7 +49,7 @@ const Home = () => {
           {pageData.aboutUs && <AboutUs Data={pageData.aboutUs} />}
           {pageData.number && <CountLoader Data={pageData.number} />}
           {pageData.whypatel && <WhyPatelHospital Data={pageData.whypatel} />}
-          {pageData.coe && <Services Data={pageData.coe} />}
+          {pageData.coe && <Services Data={pageData.coe} showButton={true} />}
           {pageData.doctors && <Doctors Data={pageData.doctors} />}
           {pageData.serviecs && <Circle Data={pageData.serviecs} />}
           {pageData.testimonials && (

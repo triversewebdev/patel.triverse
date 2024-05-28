@@ -1,0 +1,53 @@
+{
+  "title": "DEDICATED SERVICES | ADVANCED TECHNOLOGY | SPECIALIZED EXPERTS",
+  "coeData": [
+    {
+      "slug": "patel-heart",
+      "cardCont": "PATEl HEART",
+      "cardHeading": "Centre of Advanced Cardiac Care",
+      "cardImage": "http://patel.triverseadvertising.com/webimage/service01.webp"
+    },
+    {
+      "slug": "patel-kidney",
+      "cardCont": "PATEl KIDNEY",
+      "cardHeading": "Centre of Advanced Nephro-Urology",
+      "cardImage": "http://patel.triverseadvertising.com/webimage/service02.webp"
+    },
+    {
+      "slug": "patel-head-neck",
+      "cardCont": "PATEl HEAD & NECK",
+      "cardHeading": "Centre of Advanced ENT Care",
+      "cardImage": "http://patel.triverseadvertising.com/webimage/service03.webp"
+    },
+    {
+      "slug": "patel-liver",
+      "cardCont": "PATEl Liver",
+      "cardHeading": "Centre of Advanced GI Care",
+      "cardImage": "http://patel.triverseadvertising.com/webimage/service04.webp"
+    },
+    {
+      "slug": "patel-robotics",
+      "cardCont": "PATEl Robotics",
+      "cardHeading": "Centre of Advanced Robotic Surgery",
+      "cardImage": "http://patel.triverseadvertising.com/webimage/service05.webp"
+    },
+    {
+      "slug": "patel-cancer",
+      "cardCont": "PATEl Cancer",
+      "cardHeading": "Centre of Advanced Oncology",
+      "cardImage": "http://patel.triverseadvertising.com/webimage/service06.webp"
+    },
+    {
+      "slug": "patel-lung",
+      "cardCont": "PATEl Lung",
+      "cardHeading": "Centre of Advanced Pulmonology",
+      "cardImage": "http://patel.triverseadvertising.com/webimage/service07.webp"
+    },
+    {
+      "slug": "patel-heart",
+      "cardCont": "PATEl HEART",
+      "cardHeading": "Centre of Advanced Cardiac Care",
+      "cardImage": "http://patel.triverseadvertising.com/webimage/service08.webp"
+    }
+  ]
+}

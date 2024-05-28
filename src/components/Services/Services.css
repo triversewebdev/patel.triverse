@@ -38,7 +38,7 @@
     visibility: hidden;
 }
 
-.excellence .col-lg-3.col-xs-6.col-12.aos-init.aos-animate .loadeffect {
+.excellence .col-12.aos-init.aos-animate .loadeffect {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
     visibility: visible;
     transform: skewY(0);
@@ -46,4 +46,157 @@
 .serviceChild {
     border-left: solid 5px var(--primary);
     padding-left: 10px;
+}
+.bannerHeight img{
+    max-height: 468px;
+    width: 100%;
+    object-fit: cover;
+}
+.left-inherit {
+    left: inherit !important;
+    padding-right: 50px;
+}
+.accordiontabsparent{
+    height: 500px;
+}
+.accordionimg span {
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative; 
+}
+
+.accordionimg span img {
+    width: 80%;
+    height: 80%;
+    border-radius: 100%;
+}
+
+.accordionimg span:before {
+    content: '';
+    background-color: var(--blue);
+    opacity: 0.1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.accordiontitle p, .accordiontitle ul li {
+    padding: 15px 0;
+    width: 90%;
+    color: var(--black);
+    margin: 0;
+    cursor: pointer;
+    border-bottom: solid 1px var(--black);
+    transition: ease all 0.5s;
+}
+.accordiontitle ul li:nth-child(1){
+    padding-top: 0;
+}
+.accordiontitle {
+    height: 380px;
+    overflow: auto;
+    direction: rtl;
+}
+.accordiontitle::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.0);
+	background-color: var(--grey);
+}
+
+.accordiontitle::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: var(--primary);
+}
+
+.accordiontitle::-webkit-scrollbar-thumb
+{
+	background-color: var(--secondary);
+}
+.accordiontitle ul {
+    direction: ltr;
+    padding-left: 20px;
+    width: 100%;
+}
+.accordiontitle ul li.active {
+    color: var(--secondary);
+    font-weight: 600;
+}
+.treatement {
+    background-image: linear-gradient(180deg, #86aacf 10%, #a7c8d5 30%, #fff 100%);
+}
+.technolog__content {
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+}
+.downarrow {
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    transform: scaleY(-1);
+    transition: ease all 0.5s;
+    display: none;
+  }
+  
+  .downarrow svg {
+    width: 25px;
+    height: 25px;
+  }
+  
+
+.technology .active .downarrow {
+    transform: scaleX(-1);
+}
+
+.technology .active .downarrow path {
+    fill: var(--primary);
+}
+
+.doctorsinfo.technolog__content h3{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.selected-slide-content li {
+    padding: 10px 20px;
+    position: relative;
+}
+
+.selected-slide-content li:before {
+    content: '';
+    width: 2px;
+    height: 30px;
+    background: var(--primary);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translateY(-50%);
+    top: 50%;
+}
+.selected-slide-content ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.selected-slide-content li:last-child:before {
+    opacity: 0;
+}
+.accordiontitle ul li:last-child {
+    border: none;
+}
+.centre__align-tabs .accordiontitle {
+    display: flex;
+    align-items: center;
+}
+.service_listing .service__Heading {
+    font-family: var(--font);
+    font-size: 24px;
+    line-height: 30px;
+    color: var(--black);
+}
+.Service_listing__height {
+    height: 100px;
 }

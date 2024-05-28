@@ -17,7 +17,7 @@ import Logo12 from '../../images/logo12.webp';
 import Logo13 from '../../images/logo13.webp';
 import Logo14 from '../../images/logo14.webp';
 import Logo15 from '../../images/logo15.webp';
-const CashLess = ({Data}) => {
+const CashLess = () => {
     const items = [
         { imagePath: Logo01, imageAlt: 'Logo 1' },
         { imagePath: Logo02, imageAlt: 'Logo 2' },
@@ -41,7 +41,7 @@ const CashLess = ({Data}) => {
       <div className='col-12 float-start'>
         <div className='row'>
           <ul className='flex-center serviceProvider mt-3'>
-            {Data.cashlessData.map((item, index) => (
+            {items.map((item, index) => (
               <li key={index} className='flex-center' data-aos="fade-in" data-aos-offset="100" data-aos-duration="500" data-aos-once="true" data-aos-easing="ease-in-sine">
                 <ImageTag ImagePath={item.imagePath} ImageAlt={item.imageAlt || 'Logo'} />
               </li>

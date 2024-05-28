@@ -1,0 +1,77 @@
+.lg-react-element {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    row-gap: 25px;
+    flex-wrap: wrap;
+}
+
+.lg-react-element a {
+    width: 30%;
+}
+
+.galleryimg {
+    border: solid 10px #737373;
+    height: 250px;
+}
+.galleryimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 5px;
+    
+}
+.medianavbar {
+    background: var(--grey);
+}
+.medianavbar li{
+    display: inline-block;
+    width: 100%;
+}
+.medianavbar li a{
+    padding: 20px 30px;
+    border-bottom: solid 1px #d7d2d2;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: var(--letter3);
+    transition: ease all 0.5s;
+    display: inline-block;
+    width: 100%;
+}
+.medianavbar li:hover{
+    background-color: var(--primary);
+    color: var(--white);
+}
+
+.medianavbar li:last-child {
+    border: none;
+}
+
+.lightcont {
+    background: var(--grey);
+    padding: 15px;
+}
+.col-Months .active {
+    color: var(--primary);
+    font-weight: 600;
+}
+.col-Months {
+    cursor: pointer;
+}
+.col-Months ul {
+    padding-right: 40px;
+    padding-left: 10px;
+}
+.medianavbar li.active a, .medianavbar li:hover a{
+    color: var(--white);
+  }
+  .col-Months ul li {
+    padding-right: 15px;
+    border-right: solid 1px #ededed;
+    margin-right: 15px;
+}
+
+.col-Months ul li:last-child {
+    border: none;
+    padding: 0;
+}
