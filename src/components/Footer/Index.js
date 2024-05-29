@@ -14,8 +14,6 @@ import Magnetic from '../Magnetic/FramerMotion'
 import { Link } from 'react-router-dom'
 
 const Index = () => {
-
-    
     const excellence = [
         { text: 'Heart Care', url: '/centres-of-excellence/heart-care' },
         { text: 'Cancer Care'},
@@ -57,7 +55,7 @@ const Index = () => {
                     <div className='footercolumn'>
                         <h5 className='text-black'> Doctors</h5>
                         <ul>
-                            <li><Link >DR. Amber Aggrwal</Link></li>
+                            <li><Link to='/doctors/doctor-details'>DR. Amber Aggrwal</Link></li>
                             <li>DR. Nitish Kohli</li>
                             <li>DR. Shikha Chawla</li>
                             <li>DR. Nishant Saini</li>

@@ -9,7 +9,7 @@ const MediaNavabar = () => {
     <div className='col-lg-3 col-md-6 col-sm-6 col-12'>
       <ul className='medianavbar'>
         <li className={pathname === '/media' ? 'active' : ''}>
-          <Link to='/media'>Press Gallery</Link>
+          <Link to='/media'>Press Release</Link>
         </li>
         <li className={pathname === '/media/events' ? 'active' : ''}>
           <Link to='/media/events'>Events</Link>

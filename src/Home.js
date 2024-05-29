@@ -11,7 +11,8 @@ import Testimonials from "./components/Testimonials/Index";
 import CashLess from "./components/Services/CashLess";
 import Accreditation from "./components/Accreditation/Index";
 import LocomotiveScroll from "locomotive-scroll";
-import { BASE_URL } from './Utils/useApi';
+import { BASE_URL } from "./Utils/useApi";
+import Data from "./JsonData/HomeData.json";
 
 const Home = () => {
   const [pageData, setPageData] = useState(null);
@@ -51,7 +52,7 @@ const Home = () => {
           {pageData.whypatel && <WhyPatelHospital Data={pageData.whypatel} />}
           {pageData.coe && <Services Data={pageData.coe} showButton={true} />}
           {pageData.doctors && <Doctors Data={pageData.doctors} />}
-          {pageData.serviecs && <Circle Data={pageData.serviecs} />}
+          {Data.serviecs && <Circle Data={Data.serviecs} />}
           {pageData.testimonials && (
             <Testimonials Data={pageData.testimonials} />
           )}

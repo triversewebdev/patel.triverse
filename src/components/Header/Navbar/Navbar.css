@@ -172,14 +172,14 @@
     background-color: var(--primary);
   }
  
-  .menuStrip ul li span a.active{
-    font-weight: bold;
-  }
   .menus .dropdown-content li a {
-    padding: 10px 25px;
+    padding: 15px 25px;
     display: inline-block;
     transition: ease all 0.5s;
 }
 .menus .dropdown-content li:hover a, .menuStrip ul li span a.active{
     color: var(--primary);
+}
+.menus .dropdown-content li a.active:hover{
+    color: var(--white);
 }

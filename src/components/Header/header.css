@@ -1,5 +1,5 @@
 .logo {
-    max-width: 294px;
+    max-width: 400px;
     height: 90px;
     transition: ease all 0.5s;
 }
@@ -7,11 +7,6 @@
     transition: ease all 0.5s;
     transition-delay: 0.5s;
 }
-.sticky .logo {
-    max-width: 250px;
-    height: 80px;
-}
-
 
 header {
     min-height: 130px;

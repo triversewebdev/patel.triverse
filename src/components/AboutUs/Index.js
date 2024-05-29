@@ -26,6 +26,7 @@ const Index = ({ Data }) => {
         <div className="col-12 float-start mt-5 flex-center">
           <GsapMagnetic>
             <Fill
+              pageLink={"/about-us"}
               buttonText1={"Read More"}
               buttonText2={"Read More"}
               _class={"secondarybtn"}

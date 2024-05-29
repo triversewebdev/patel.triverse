@@ -27,6 +27,7 @@ function App() {
   }, []);
   return (
     <Router>
+          <ScrollToTop />
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
