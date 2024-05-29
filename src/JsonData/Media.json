@@ -1,0 +1,973 @@
+{
+  "data": {
+    "description": null
+  },
+  "mediayears": [
+    {
+      "year": "2024",
+      "type": "media",
+      "class": ""
+    },
+    {
+      "year": "2023",
+      "type": "media",
+      "class": ""
+    },
+    {
+      "year": "2022",
+      "type": "media",
+      "class": "activemenu"
+    },
+    {
+      "year": "2021",
+      "type": "media",
+      "class": ""
+    },
+    {
+      "year": "2020",
+      "type": "media",
+      "class": ""
+    },
+    {
+      "year": "2019",
+      "type": "media",
+      "class": ""
+    },
+    {
+      "year": "2018",
+      "type": "media",
+      "class": ""
+    },
+    {
+      "year": "2017",
+      "type": "media",
+      "class": ""
+    }
+  ],
+  "mediamonths": [
+    {
+      "month": "12",
+      "monthname": "Dec"
+    },
+    {
+      "month": "11",
+      "monthname": "Nov"
+    },
+    {
+      "month": "10",
+      "monthname": "Oct"
+    },
+    {
+      "month": "9",
+      "monthname": "Sep"
+    },
+    {
+      "month": "8",
+      "monthname": "Aug"
+    },
+    {
+      "month": "7",
+      "monthname": "Jul"
+    },
+    {
+      "month": "6",
+      "monthname": "Jun"
+    },
+    {
+      "month": "5",
+      "monthname": "May"
+    },
+    {
+      "month": "3",
+      "monthname": "Mar"
+    },
+    {
+      "month": "2",
+      "monthname": "Feb"
+    },
+    {
+      "month": "1",
+      "monthname": "Jan"
+    }
+  ],
+  "media": {
+    "gallery": [
+      {
+        "galData": [
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/1160349665HT City 3 dec advt.jpg",
+            "datemonth": "03 Dec 2022",
+            "yearData": "2022",
+            "monthData": "12"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Delhi Times",
+            "image": "https://triverseadvertising.com/ss-group/images/1613908055Delhi times 4 dec advt.jpg",
+            "datemonth": "04 Dec 2022",
+            "yearData": "2022",
+            "monthData": "12"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/70973020HT City 4 dec advt.jpg",
+            "datemonth": "04 Dec 2022",
+            "yearData": "2022",
+            "monthData": "12"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/90020288010 Dec 22 advt.jpg",
+            "datemonth": "10 Dec 2022",
+            "yearData": "2022",
+            "monthData": "12"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Delhi Times",
+            "image": "https://triverseadvertising.com/ss-group/images/91142902011 dec 22 advt.jpg",
+            "datemonth": "11 Dec 2022",
+            "yearData": "2022",
+            "monthData": "12"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/22233448617 December 2022 ADVT HTCity (1).jpg",
+            "datemonth": "17 Dec 2022",
+            "yearData": "2022",
+            "monthData": "12"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/95296616318 December 2022 ADVT HTCity (1).jpg",
+            "datemonth": "18 Dec 2022",
+            "yearData": "2022",
+            "monthData": "12"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/492833659leaf & linden ad 5 nov.jpg",
+            "datemonth": "05/November",
+            "yearData": "2022",
+            "monthData": "11"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/341474605leaf & linden ad 6 nov.jpg",
+            "datemonth": "06/November",
+            "yearData": "2022",
+            "monthData": "11"
+          },
+          {
+            "titleData": "The Leaf &  SS Linden",
+            "news_paperName": "Delhi Times",
+            "image": "https://triverseadvertising.com/ss-group/images/986419004Delhi-Times-13-nov-2022-advt.jpg",
+            "datemonth": "13 Nov 2022",
+            "yearData": "2022",
+            "monthData": "11"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/391979967Jagran city 12 nov 2022 advt (2).jpg",
+            "datemonth": "12 November 2022",
+            "yearData": "2022",
+            "monthData": "11"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/2135162905Hindustan times 18 Nov Advt (2) (1).jpg",
+            "datemonth": "18 Nov 2022",
+            "yearData": "2022",
+            "monthData": "11"
+          },
+          {
+            "titleData": "The Leaf &  SS Linden",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/1650598903leaf & linden ad 20 Nov 22 (1).jpg",
+            "datemonth": "20 Nov 2022",
+            "yearData": "2022",
+            "monthData": "11"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/156220762Dainik jagran 26 nov advt.jpg",
+            "datemonth": "26 Nov 2022",
+            "yearData": "2022",
+            "monthData": "11"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Delhi Times",
+            "image": "https://triverseadvertising.com/ss-group/images/1722002669Delhi Times 27 nov advt.jpg",
+            "datemonth": "27 Nov 2022",
+            "yearData": "2022",
+            "monthData": "11"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Delhi Times",
+            "image": "https://triverseadvertising.com/ss-group/images/5157489441 oct 22 ad copy.jpg",
+            "datemonth": "01 October",
+            "yearData": "2022",
+            "monthData": "10"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/6246655601 oct 22 ad ht city copy.jpg",
+            "datemonth": "01 October",
+            "yearData": "2022",
+            "monthData": "10"
+          },
+          {
+            "titleData": "The Leaf &  SS Linden",
+            "news_paperName": "Gurugram Times",
+            "image": "https://triverseadvertising.com/ss-group/images/430647258 oct 2022 Gurgaon times advt.jpg",
+            "datemonth": "08 Oct 2022",
+            "yearData": "2022",
+            "monthData": "10"
+          },
+          {
+            "titleData": "The Leaf &  SS Linden",
+            "news_paperName": "HT City",
+            "image": "https://triverseadvertising.com/ss-group/images/19554029528 oct 2022 HT City advt.jpg",
+            "datemonth": "08 Oct 2022",
+            "yearData": "2022",
+            "monthData": "10"
+          },
+          {
+            "titleData": "The Leaf &  SS Linden",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/167925377815-oct-2022-Gurgaon-times-advt.jpg",
+            "datemonth": "15 Oct 2022",
+            "yearData": "2022",
+            "monthData": "10"
+          },
+          {
+            "titleData": "The Leaf &  SS Linden",
+            "news_paperName": "HT City",
+            "image": "https://triverseadvertising.com/ss-group/images/9168694315-oct-2022-HT-City-advt.jpg",
+            "datemonth": "15 Oct 2022",
+            "yearData": "2022",
+            "monthData": "10"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/1024080490The Leaf &  SS Linden DT ad 3 sep ht city copy.jpg",
+            "datemonth": "02 September",
+            "yearData": "2022",
+            "monthData": "9"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/1024604860The Leaf &  SS Linden DT ad 3 sep jagran city copy.jpg",
+            "datemonth": "02 September",
+            "yearData": "2022",
+            "monthData": "9"
+          },
+          {
+            "titleData": "SS Linden",
+            "news_paperName": "Times Property",
+            "image": "https://triverseadvertising.com/ss-group/images/77169307330 sep ad copy.jpg",
+            "datemonth": "30 September",
+            "yearData": "2022",
+            "monthData": "9"
+          },
+          {
+            "titleData": "The Leaf &  SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/178349984817-Sep-2022-Dainik-jagran-advt..jpg",
+            "datemonth": "17 Sep 2022",
+            "yearData": "2022",
+            "monthData": "9"
+          },
+          {
+            "titleData": "The Leaf &  SS Linden",
+            "news_paperName": "HT City",
+            "image": "https://triverseadvertising.com/ss-group/images/62298831917-Sep-2022-HT-CITY-advt..jpg",
+            "datemonth": "17 Sep 2022",
+            "yearData": "2022",
+            "monthData": "9"
+          },
+          {
+            "titleData": "The Leaf &  SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/2659761224-Sep-2022-Dainik-jagran-advt..jpg",
+            "datemonth": "24 Sep 2022",
+            "yearData": "2022",
+            "monthData": "9"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "HT City",
+            "image": "https://triverseadvertising.com/ss-group/images/168615802824-Sep-2022-HT-CITY-advt..jpg",
+            "datemonth": "24 Sep 2022",
+            "yearData": "2022",
+            "monthData": "9"
+          },
+          {
+            "titleData": "The Leaf &  SS Linden",
+            "news_paperName": "Jagran City",
+            "image": "https://triverseadvertising.com/ss-group/images/1050827992Jagran-city-12-nov-2022-advt.jpg",
+            "datemonth": "12-09-2022",
+            "yearData": "2022",
+            "monthData": "9"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/306796002Dainik Jagran Plots jacket ad 6 Aug.jpg",
+            "datemonth": "06 August",
+            "yearData": "2022",
+            "monthData": "8"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/700157645HT City Plots jacket ad 6 August 2022.jpg",
+            "datemonth": "06 August",
+            "yearData": "2022",
+            "monthData": "8"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/74471355Dainik Jagran 27 Aug Leaf Linden Ad.jpg",
+            "datemonth": "27 August",
+            "yearData": "2022",
+            "monthData": "8"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/448889491Ht City 27 Aug Leaf Linden Ad.jpg",
+            "datemonth": "27 August",
+            "yearData": "2022",
+            "monthData": "8"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "The Leaf &  SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/1926468181The Leaf &  SS Linden DT ad Friday, 8 July 2022_Hindi (2).jpg",
+            "datemonth": "08 July",
+            "yearData": "2022",
+            "monthData": "7"
+          },
+          {
+            "titleData": "The Leaf &  SS Linden",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/406716300The Leaf &  SS Linden DT ad Saturday, 9 July 2022_English (1).jpg",
+            "datemonth": "09 July",
+            "yearData": "2022",
+            "monthData": "7"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/830792972The Leaf &  SS Linden DT ad 16 july 2022.jpg",
+            "datemonth": "16 July",
+            "yearData": "2022",
+            "monthData": "7"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/805161859The Leaf &  SS Linden HT City ad 16 july 2022.jpg",
+            "datemonth": "16 July",
+            "yearData": "2022",
+            "monthData": "7"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/1540386360Dainik Jagran Plots jacket ad 23 july.jpg",
+            "datemonth": "23 July",
+            "yearData": "2022",
+            "monthData": "7"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/1096555924HT City Plots jacket ad 23 july.jpg",
+            "datemonth": "23 July",
+            "yearData": "2022",
+            "monthData": "7"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/1052270070Dainik Jagran Plots jacket ad 30 july.jpg",
+            "datemonth": "30 July",
+            "yearData": "2022",
+            "monthData": "7"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/202895251HT City Plots jacket ad 30 july.jpg",
+            "datemonth": "30 July",
+            "yearData": "2022",
+            "monthData": "7"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/106467458The Leaf &  SS Linden DJ ad 11 June.jpg",
+            "datemonth": "11 June",
+            "yearData": "2022",
+            "monthData": "6"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/2039246539The Leaf &  SS Linden GT ad 11 June.jpg",
+            "datemonth": "11 June",
+            "yearData": "2022",
+            "monthData": "6"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/129809365The Leaf &  SS Linden DT ad 4 june.jpg",
+            "datemonth": "04 June",
+            "yearData": "2022",
+            "monthData": "6"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/385323210The Leaf &  SS Linden GT ad 4 june.jpg",
+            "datemonth": "04 June",
+            "yearData": "2022",
+            "monthData": "6"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/41462930The Leaf &  SS Linden DT ad 18 jUNE 22 copy.jpg",
+            "datemonth": "18 June",
+            "yearData": "2022",
+            "monthData": "6"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "The Leaf and SS Linden Ad",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/1838005202Dainik jagran 7th may leaf & linden ad.jpg",
+            "datemonth": "07 May",
+            "yearData": "2022",
+            "monthData": "5"
+          },
+          {
+            "titleData": "The Leaf and SS Linden Ad",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/800520880Gurgaon Times 7th may leaf & linden ad.jpg",
+            "datemonth": "07 May",
+            "yearData": "2022",
+            "monthData": "5"
+          },
+          {
+            "titleData": "The Leaf &  SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/425317154The Leaf &  SS Linden Dainik Jagran ad 21 may.jpg",
+            "datemonth": "21 May",
+            "yearData": "2022",
+            "monthData": "5"
+          },
+          {
+            "titleData": "The Leaf &  SS Linden DT",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/96990404The Leaf &  SS Linden DT ad 21 may.jpg",
+            "datemonth": "21 May",
+            "yearData": "2022",
+            "monthData": "5"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/1304889673The Leaf &  SS Linden Dainik jagran ad 14 may.jpg",
+            "datemonth": "14 May",
+            "yearData": "2022",
+            "monthData": "5"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/1437405925The Leaf &  SS Linden DT ad 14 may.jpg",
+            "datemonth": "14 May",
+            "yearData": "2022",
+            "monthData": "5"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/366226060The Leaf &  SS Linden Dainik jagran ad 28 may.jpg",
+            "datemonth": "28 May",
+            "yearData": "2022",
+            "monthData": "5"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/940856516The Leaf &  SS Linden Gurgaon times ad 28 may.jpg",
+            "datemonth": "28 May",
+            "yearData": "2022",
+            "monthData": "5"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "SS Linden/Leaf ad",
+            "news_paperName": "The Times of India",
+            "image": "https://triverseadvertising.com/ss-group/images/651180575SS Linden you are important _Big Life Offer.jpg",
+            "datemonth": "March 2022",
+            "yearData": "2022",
+            "monthData": "3"
+          },
+          {
+            "titleData": "SS Linden & The Leaf Jacket-Ad",
+            "news_paperName": "HT City Delhi",
+            "image": "https://triverseadvertising.com/ss-group/images/229455139HT-City-26-march-2022-SSLinden-&-The-Leaf-Jacket-Ad.jpg",
+            "datemonth": "26 March",
+            "yearData": "2022",
+            "monthData": "3"
+          },
+          {
+            "titleData": "SS Linden & The Leaf Jacket-Ad",
+            "news_paperName": "Jagran City",
+            "image": "https://triverseadvertising.com/ss-group/images/85628513Jagran-City-26-march-2022-SSLinden-&-The-Leaf-Jacket-Ad.jpg",
+            "datemonth": "26 March",
+            "yearData": "2022",
+            "monthData": "3"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "SS Linden you are important _Big Life Offer",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/1737038410SS Linden you are important _Big Life Offer (2).jpg",
+            "datemonth": "February 2022",
+            "yearData": "2022",
+            "monthData": "2"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "SS Linden",
+            "news_paperName": "Times Property",
+            "image": "https://triverseadvertising.com/ss-group/images/925421171Times Property SS Linden 14 Jan 2022 Ad.jpg",
+            "datemonth": "14 January",
+            "yearData": "2022",
+            "monthData": "1"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "SS Cendana & SS Highpoint",
+            "news_paperName": "Delhi Times",
+            "image": "https://triverseadvertising.com/ss-group/images/38475049502-Nov-203-Cendana-and-highpoint-advt (1).jpg",
+            "datemonth": "02 Nov 2023",
+            "yearData": "2023",
+            "monthData": "11"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/95652202717th Oct 2023 Advt. Gurgaon times ss.jpg",
+            "datemonth": "17 Oct 2023",
+            "yearData": "2023",
+            "monthData": "10"
+          },
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/77718464018th-Oct-2023-Advt.webp",
+            "datemonth": "18 Oct 2023",
+            "yearData": "2023",
+            "monthData": "10"
+          },
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "Delhi Times",
+            "image": "https://triverseadvertising.com/ss-group/images/1988011436SS Cendana Advt 23rd oct 2023.jpg",
+            "datemonth": "23  Oct 2023",
+            "yearData": "2023",
+            "monthData": "10"
+          },
+          {
+            "titleData": "SS-Strada & SS Highpoint",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/541116724HT-City-23-Oct-2023.jpg",
+            "datemonth": "23  Oct 2023",
+            "yearData": "2023",
+            "monthData": "10"
+          },
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/1204358427HT-CIty-26th-Oct-2023-Advt.webp",
+            "datemonth": "26 Oct 2023",
+            "yearData": "2023",
+            "monthData": "10"
+          },
+          {
+            "titleData": "SS Cendana & SS-Strada",
+            "news_paperName": "Delhi Times",
+            "image": "https://triverseadvertising.com/ss-group/images/441510222Delhi-Times-26th-Oct-2023-Advt.webp",
+            "datemonth": "26 Oct 2023",
+            "yearData": "2023",
+            "monthData": "10"
+          },
+          {
+            "titleData": "SS-Strada & SS Highpoint",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/1827485333Dainik-Jagran-27th-Oct-2023-Advt.webp",
+            "datemonth": "27 Oct 2023",
+            "yearData": "2023",
+            "monthData": "10"
+          },
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/873250704Jagran City 28th Oct 2023 Advt..jpg",
+            "datemonth": "28 Oct 2023",
+            "yearData": "2023",
+            "monthData": "10"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "The Times of India",
+            "image": "https://triverseadvertising.com/ss-group/images/257329341SS Cendana Jkt Launch Times of India 05 Sep 2023.jpg",
+            "datemonth": "05 Sep 2023",
+            "yearData": "2023",
+            "monthData": "9"
+          },
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "The Economic Times",
+            "image": "https://triverseadvertising.com/ss-group/images/221630193SS Cendana The Economic Times 7 Sep 23 Advt..jpg",
+            "datemonth": "07 Sep 2023",
+            "yearData": "2023",
+            "monthData": "9"
+          },
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "The Indian Express",
+            "image": "https://triverseadvertising.com/ss-group/images/929666570SS Cendana Indian Express 8 Sep 23 Advt..jpg",
+            "datemonth": "08 Sep 2023",
+            "yearData": "2023",
+            "monthData": "9"
+          },
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "The Economic Times",
+            "image": "https://triverseadvertising.com/ss-group/images/1849150693SS Cendana Half Page Economic Times 09 Sep 23.jpg",
+            "datemonth": "09 Sep 2023",
+            "yearData": "2023",
+            "monthData": "9"
+          },
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/128952056815 Sep advt..jpg",
+            "datemonth": "15 Sep 2023",
+            "yearData": "2023",
+            "monthData": "9"
+          },
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "Delhi Times",
+            "image": "https://triverseadvertising.com/ss-group/images/1825084188Delhi times advt 16 Sep 2023.jpg",
+            "datemonth": "16 Sep 2023",
+            "yearData": "2023",
+            "monthData": "9"
+          },
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "The Hindu",
+            "image": "https://triverseadvertising.com/ss-group/images/1504836393The Hindu ADVT 20 Sep 2023.jpg",
+            "datemonth": "20 Sep 2023",
+            "yearData": "2023",
+            "monthData": "9"
+          },
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/1209912290HT-CIty-22 Sep 2023 DNCR (1).jpg",
+            "datemonth": "22 Sep 2023",
+            "yearData": "2023",
+            "monthData": "9"
+          },
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "Delhi Times",
+            "image": "https://triverseadvertising.com/ss-group/images/1989351649Delhi Times ADVT 21 Sep 2023.jpg",
+            "datemonth": "21 Sep 2023",
+            "yearData": "2023",
+            "monthData": "9"
+          },
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "Delhi Times",
+            "image": "https://triverseadvertising.com/ss-group/images/260985384DT-Half-Page 23 Sep 2023 (1) (1).jpg",
+            "datemonth": "23  Sep 2023",
+            "yearData": "2023",
+            "monthData": "9"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "SS Group",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/14056516836 August 23 Gurgaon Times Jacket Advt. Carnival.jpg",
+            "datemonth": "06 Aug 2023",
+            "yearData": "2023",
+            "monthData": "8"
+          },
+          {
+            "titleData": "Biggest Ready-To-Move-In Carnival of Gurgaon",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/271062456Gurgaon Times Jacket Advt. Carnival - 12 august 23.jpg",
+            "datemonth": "12 Aug 2023",
+            "yearData": "2023",
+            "monthData": "8"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "SS-Strada & SS Linden",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/1716716023SS-Strada-&-SS-Linden-Floors-Advt.-15-July-23-Gurgaon-Times.jpg",
+            "datemonth": "15 jul 2023",
+            "yearData": "2023",
+            "monthData": "7"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "SS Strada",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/1402778992SS Strada Pre launch Press Ad Gurgoan Times 2 (1).jpg",
+            "datemonth": "10 Jun 2023",
+            "yearData": "2023",
+            "monthData": "6"
+          },
+          {
+            "titleData": "SS Strada",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/2100726676SS Strada Pre launch Press Ad Gurgoan Times 1.jpg",
+            "datemonth": "10 Jun 2023",
+            "yearData": "2023",
+            "monthData": "6"
+          },
+          {
+            "titleData": "SS-Strada",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/1327367396SS-Strada-Half-Page-press-ad-32.jpg",
+            "datemonth": "11 jun 2023",
+            "yearData": "2023",
+            "monthData": "6"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/748886082Gurgaon Times 1st April ADVT. (1) (1) (1).jpg",
+            "datemonth": "1 Apr 2023",
+            "yearData": "2023",
+            "monthData": "4"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/19278696157 Apr 2023 Advt Image Dainik Jagran.jpg",
+            "datemonth": "7 Apr 2023",
+            "yearData": "2023",
+            "monthData": "4"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/956585106Dainik Jagran Jacket Ad 25 Mach 2023 (1).jpg",
+            "datemonth": "25 Mar 2023",
+            "yearData": "2023",
+            "monthData": "3"
+          },
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/400308440Gurgaon Times Jacket Ad 24 march 23 (1) (1).jpg",
+            "datemonth": "24 Mar 2023",
+            "yearData": "2023",
+            "monthData": "3"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "The Leaf & SS Linden",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/2075818069leaf & linden advt 25 Feb 2023.jpg",
+            "datemonth": "25 Feb 2023",
+            "yearData": "2023",
+            "monthData": "2"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "Jagran city",
+            "image": "https://triverseadvertising.com/ss-group/images/78195744518th May SS Cendana Jagran City (1).jpg",
+            "datemonth": "18 May 2024",
+            "yearData": "2024",
+            "monthData": "5"
+          },
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "HT City",
+            "image": "https://triverseadvertising.com/ss-group/images/87346876618th May SS Cendana HT City (1).jpg",
+            "datemonth": "18 May 2024",
+            "yearData": "2024",
+            "monthData": "5"
+          },
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "Delhi Times",
+            "image": "https://triverseadvertising.com/ss-group/images/18233175718th May SS Cendana Delhi Times (1).jpg",
+            "datemonth": "18 May 2024",
+            "yearData": "2024",
+            "monthData": "5"
+          },
+          {
+            "titleData": "SS Cendana",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/22116291118th May SS Cendana Gurgaon Times (1).jpg",
+            "datemonth": "18 May 2024",
+            "yearData": "2024",
+            "monthData": "5"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "SS WhiteWater",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/1825883309Dainik Jagran 09 march advt..jpg",
+            "datemonth": "09 Mar 2024",
+            "yearData": "2024",
+            "monthData": "3"
+          },
+          {
+            "titleData": "SS WhiteWater",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/2055290540HT CIty 08 march advt..jpg",
+            "datemonth": "08 Mar 2024",
+            "yearData": "2024",
+            "monthData": "3"
+          }
+        ]
+      },
+      {
+        "galData": [
+          {
+            "titleData": "SS WhiteWater",
+            "news_paperName": "Dainik Jagran",
+            "image": "https://triverseadvertising.com/ss-group/images/1697583896Dainik Jagran 17 Feb 2024 ADVT.jpg",
+            "datemonth": "17 Feb 2024",
+            "yearData": "2024",
+            "monthData": "2"
+          },
+          {
+            "titleData": "SS WhiteWater",
+            "news_paperName": "Gurgaon Times",
+            "image": "https://triverseadvertising.com/ss-group/images/1060501629Gurgaon Times 17 Feb 2024 ADVT (1).jpg",
+            "datemonth": "17 Feb 2024",
+            "yearData": "2024",
+            "monthData": "2"
+          },
+          {
+            "titleData": "SS WhiteWater",
+            "news_paperName": "Hindustan Times",
+            "image": "https://triverseadvertising.com/ss-group/images/69234671624th Feb Advt Image.jpg",
+            "datemonth": "24-02-2024",
+            "yearData": "2024",
+            "monthData": "2"
+          }
+        ]
+      }
+    ]
+  }
+}
