@@ -11,13 +11,19 @@ const Index = ({
   BannerWidth,
   BannerHeight,
   bannerContent,
+  pageName,
+  pageChildName,
+  pageUrl,
+  _bannerHeight,
+  rightPosition,
+  colorClass,
 }) => {
   if (!BannerImage) {
     return null;
   }
 
   return (
-    <Container _parentClass={"Banner"}>
+    <Container _parentClass={`banner ${_bannerHeight}`}>
       <div className="col-12 float-start position-relative">
         <ImageTag
           ImagePath={BannerImage}
@@ -29,12 +35,16 @@ const Index = ({
         {bannerContent && (
           <BannerHeading
             bannerText={bannerContent}
-            _parentBanner={"parentbanner"}
-            bannerHeading={"bannerh2 text-uppercase"}
+            _parentBanner={`parentbanner ${rightPosition}`}
+            bannerHeading={`bannerh2 text-uppercase ${colorClass}`}
           />
         )}
       </div>
-      <BreadCrumb />
+      <BreadCrumb
+        pageName={pageName}
+        pageChildName={pageChildName}
+        pageUrl={pageUrl}
+      />
     </Container>
   );
 };

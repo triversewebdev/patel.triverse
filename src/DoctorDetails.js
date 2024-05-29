@@ -21,7 +21,11 @@ const DoctorDetails = () => {
         const response = await axios.get(
           `${BASE_URL}/doctor_details.php?url=${slug}`
         );
-        setPageData(response.data.doctorDetails);
+        if (response.data.error) {
+          setError(response.data.error);
+        } else {
+          setPageData(response.data.doctorDetails);
+        }
       } catch (error) {
         setError(error);
       } finally {
@@ -32,16 +36,37 @@ const DoctorDetails = () => {
     fetchData();
   }, [slug]);
   console.log("doctorData", pageData);
+  if (isLoading)
+    return (
+      <div className="  mx-auto p-100 w-100 d-flex justify-content-center">
+        Loading...
+      </div>
+    );
+  if (!pageData)
+    return (
+      <div className="  mx-auto p-100 w-100 d-flex justify-content-center">
+        No data found
+      </div>
+    );
+  if (error)
+    return (
+      <div className="  mx-auto p-100 w-100 d-flex justify-content-center">
+        Error: {error}
+      </div>
+    );
+  const slugToText = (slug) => {
+    let text = slug.replace(/[-_]/g, " ");
+    text = text.replace(/\b\w/g, (char) => char.toUpperCase());
 
-  if (isLoading) return <div>Loading...</div>;
-  if (error) return <div>Error: {error.message}</div>;
+    return text;
+  };
 
   return (
     <>
       <main className="col-12 float-start" data-scroll-container>
         <Banner
           BannerImage={BannerImg}
-          pageChildName={"Dr. Naveen Khanna"}
+          pageChildName={slugToText(slug)}
           pageName={"Doctors"}
           pageUrl={"/doctors"}
         />

@@ -18,6 +18,7 @@ import Banner03 from "./images/technology-03.webp";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { BASE_URL } from "./Utils/useApi";
+import data from "./JsonData/CoeDetail.json";
 
 const HeartCare = () => {
   const overviewRef = useRef(null);
@@ -58,9 +59,13 @@ const HeartCare = () => {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `${BASE_URL}/coe_listings.php?url=${slug}`
+          `${BASE_URL}/coe_details.php?url=${slug}`
         );
-        setPageData(response.data);
+        if (response.data.error) {
+          setError(response.data.error);
+        } else {
+          setPageData(response.data);
+        }
       } catch (error) {
         setError(error);
       } finally {
@@ -72,8 +77,30 @@ const HeartCare = () => {
   }, [slug]);
   console.log("doctorData", pageData);
 
-  if (isLoading ) return <div>Loading...</div>;
-  if (error) return <div>Error: {error.message}</div>;
+  if (isLoading)
+    return (
+      <div className="  mx-auto p-100 w-100 d-flex justify-content-center">
+        Loading...
+      </div>
+    );
+  if (!pageData)
+    return (
+      <div className="  mx-auto p-100 w-100 d-flex justify-content-center">
+        No data found
+      </div>
+    );
+  if (error)
+    return (
+      <div className="  mx-auto p-100 w-100 d-flex justify-content-center">
+        Error: {error}
+      </div>
+    );
+  const slugToText = (slug) => {
+    let text = slug.replace(/[-_]/g, " ");
+    text = text.replace(/\b\w/g, (char) => char.toUpperCase());
+
+    return text;
+  };
 
   return (
     <>
@@ -81,7 +108,7 @@ const HeartCare = () => {
         {pageData.banner_image && (
           <Banner
             BannerImage={pageData.banner_image}
-            pageChildName={"Heart Care"}
+            pageChildName={slugToText(slug)}
             bannerContent={pageData.bannerContent}
             BannerName={"Patel Hospital Heart Care"}
             pageName={"Centres Of Excellence"}
@@ -111,8 +138,8 @@ const HeartCare = () => {
           {pageData.doctors && <Doctors Data={pageData.doctors} />}
         </div>
         <div ref={whyPatelRef} className="col-12 float-start">
-          {pageData.specialities && (
-            <Specialities specialities={pageData.specialities} />
+          {data.specialities && slug == "patel-heart" && (
+            <Specialities specialities={data.specialities} />
           )}
         </div>
         <div ref={healthyNumbersRef} className="col-12 float-start">
@@ -132,7 +159,7 @@ const HeartCare = () => {
           )}
         </div>
         <div ref={testimonialsRef} className="col-12 float-start">
-          {pageData.whypatel.Data && (
+          {pageData.whypatel && (
             <Treatments
               tabsData={pageData.whypatel.Data}
               snapHeading={"Why Patel heart?"}
